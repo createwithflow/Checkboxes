@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="705781BA-1BD4-4144-96D2-482936B34B9E" customClass="AbbaciButton" customModule="Checkboxes" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="705781BA-1BD4-4144-96D2-482936B34B9E" customClass="AffirmButton" customModule="Checkboxes" customModuleProvider="target">
                                 <rect key="frame" x="171.5" y="317.5" width="32" height="32"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
