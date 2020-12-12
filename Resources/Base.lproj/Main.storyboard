@@ -19,27 +19,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="705781BA-1BD4-4144-96D2-482936B34B9E" customClass="AffirmButton" customModule="Checkboxes" customModuleProvider="target">
-                                <rect key="frame" x="171.5" y="317.5" width="32" height="32"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="705781BA-1BD4-4144-96D2-482936B34B9E" customClass="AlarmButton" customModule="Checkboxes" customModuleProvider="target">
+                                <rect key="frame" x="172" y="277" width="66" height="73"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="32" id="opV-ms-vXv"/>
-                                    <constraint firstAttribute="width" constant="32" id="sjb-Zv-Qk0"/>
+                                    <constraint firstAttribute="height" constant="73" id="opV-ms-vXv"/>
+                                    <constraint firstAttribute="width" constant="66" id="sjb-Zv-Qk0"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerY" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerY" id="2986C4E1-CA4B-4B02-90A6-61ABA186BD1F"/>
-                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerX" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerX" id="5DBE505C-9E17-4DC3-9FC0-8D53980EC785"/>
+                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerY" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerY" constant="-20" id="2986C4E1-CA4B-4B02-90A6-61ABA186BD1F"/>
+                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerX" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerX" constant="17.5" id="5DBE505C-9E17-4DC3-9FC0-8D53980EC785"/>
                         </constraints>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="32" height="32"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="072895EE-2A50-48C7-820B-E2CC720E2FE5" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="-0.80000000000000004" y="-0.44977511244377816"/>
         </scene>
         <!--Launch Animation View Controller-->
         <scene sceneID="uPg-I4-Jwi">
@@ -77,4 +77,9 @@
             <point key="canvasLocation" x="-1" y="649"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="CJs-KB-Ydh">
+            <size key="intrinsicContentSize" width="290" height="60"/>
+        </designable>
+    </designables>
 </document>

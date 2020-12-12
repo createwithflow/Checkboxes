@@ -13,6 +13,9 @@
 		1F32CADA258478BB00CD507B /* AffirmTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CAD7258478BB00CD507B /* AffirmTimeline.swift */; };
 		1F32CADB258478BB00CD507B /* AffirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CAD8258478BB00CD507B /* AffirmView.swift */; };
 		1F32CADC258478BB00CD507B /* AffirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CAD9258478BB00CD507B /* AffirmButton.swift */; };
+		1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87205258481AD00B5B28C /* AlarmTimeline.swift */; };
+		1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87206258481AD00B5B28C /* AlarmView.swift */; };
+		1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87207258481AD00B5B28C /* AlarmButton.swift */; };
 		Animation_swift_BuildFile /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = Animation_swift_FileReference /* Animation.swift */; };
 		AppDelegate_swift_BuildFile /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AppDelegate_swift_FileReference /* AppDelegate.swift */; };
 		Assets_xcassets_BuildFile /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = Assets_xcassets_FileReference /* Assets.xcassets */; };
@@ -44,6 +47,9 @@
 		1F32CAD7258478BB00CD507B /* AffirmTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffirmTimeline.swift; sourceTree = "<group>"; };
 		1F32CAD8258478BB00CD507B /* AffirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffirmView.swift; sourceTree = "<group>"; };
 		1F32CAD9258478BB00CD507B /* AffirmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffirmButton.swift; sourceTree = "<group>"; };
+		1FD87205258481AD00B5B28C /* AlarmTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTimeline.swift; sourceTree = "<group>"; };
+		1FD87206258481AD00B5B28C /* AlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		1FD87207258481AD00B5B28C /* AlarmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmButton.swift; sourceTree = "<group>"; };
 		Animation_swift_FileReference /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
 		AppDelegate_swift_FileReference /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		Assets_xcassets_FileReference /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,11 +87,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0A489325847B9200A4C663 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				1FD87207258481AD00B5B28C /* AlarmButton.swift */,
+				1FD87205258481AD00B5B28C /* AlarmTimeline.swift */,
+				1FD87206258481AD00B5B28C /* AlarmView.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
 		1F32CACA2584632100CD507B /* Animations */ = {
 			isa = PBXGroup;
 			children = (
 				1F32CADE258478C100CD507B /* Abbaci */,
 				1F32CADF258478D200CD507B /* Affirm */,
+				1F0A489325847B9200A4C663 /* Alarm */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -264,10 +281,12 @@
 				UIImage_Extension_swift_BuildFile /* UIImage+Extension.swift in Sources */,
 				Timeline_swift_BuildFile /* Timeline.swift in Sources */,
 				1F32CADB258478BB00CD507B /* AffirmView.swift in Sources */,
+				1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */,
 				CAKeyframeAnimation_Extension_swift_BuildFile /* CAKeyframeAnimation+Extension.swift in Sources */,
 				1F32CADA258478BB00CD507B /* AffirmTimeline.swift in Sources */,
 				NSMutableParagraphStyle_Extension_swift_BuildFile /* NSMutableParagraphStyle+Extension.swift in Sources */,
 				CATransaction_Extension_swift_BuildFile /* CATransaction+Extension.swift in Sources */,
+				1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */,
 				1F32CADC258478BB00CD507B /* AffirmButton.swift in Sources */,
 				TextView_swift_BuildFile /* TextView.swift in Sources */,
 				Sound_swift_BuildFile /* Sound.swift in Sources */,
@@ -276,6 +295,7 @@
 				NSShadow_Extension_swift_BuildFile /* NSShadow+Extension.swift in Sources */,
 				1F32CAD12584636600CD507B /* AbbaciButton.swift in Sources */,
 				ViewController_swift_BuildFile /* ViewController.swift in Sources */,
+				1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */,
 				1F32CACD2584633500CD507B /* AbbaciView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
