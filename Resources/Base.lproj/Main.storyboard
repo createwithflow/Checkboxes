@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gNs-5D-dvo">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="7E494AD1-EA86-47F4-93BC-6C3D95BD3CC8">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="ViewController" customClass="ViewController" customModule="Checkboxes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="216EE44A-C8F2-46D7-A762-231ADE5CA37F"/>
+                        <viewControllerLayoutGuide type="bottom" id="27F3486E-2243-4FE7-9BD9-38BDFD7FC04E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="705781BA-1BD4-4144-96D2-482936B34B9E" customClass="AbbaciButton" customModule="Checkboxes" customModuleProvider="target">
+                                <rect key="frame" x="171.5" y="317.5" width="32" height="32"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="opV-ms-vXv"/>
+                                    <constraint firstAttribute="width" constant="32" id="sjb-Zv-Qk0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerY" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerY" id="2986C4E1-CA4B-4B02-90A6-61ABA186BD1F"/>
+                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerX" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerX" id="5DBE505C-9E17-4DC3-9FC0-8D53980EC785"/>
+                        </constraints>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="32" height="32"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="072895EE-2A50-48C7-820B-E2CC720E2FE5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+        <!--Launch Animation View Controller-->
+        <scene sceneID="uPg-I4-Jwi">
+            <objects>
+                <viewController id="gNs-5D-dvo" customClass="LaunchAnimationViewController" customModule="Checkboxes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lws-Dv-aGB"/>
+                        <viewControllerLayoutGuide type="bottom" id="NOy-1h-cy6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lsv-YY-aZj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJs-KB-Ydh" customClass="LaunchAnimationView" customModule="Checkboxes" customModuleProvider="target">
+                                <rect key="frame" x="42.5" y="303.5" width="290" height="60"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="F34-UY-EOV"/>
+                                    <constraint firstAttribute="width" constant="290" id="lnu-tW-77y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CJs-KB-Ydh" firstAttribute="centerY" secondItem="Lsv-YY-aZj" secondAttribute="centerY" id="Uwo-hT-4Ki"/>
+                            <constraint firstItem="CJs-KB-Ydh" firstAttribute="centerX" secondItem="Lsv-YY-aZj" secondAttribute="centerX" id="pPV-qb-LTz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="scene" destination="CJs-KB-Ydh" id="KDI-Qj-fDB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vxw-N1-2S8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1" y="649"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F32CACD2584633500CD507B /* AbbaciView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CACB2584633500CD507B /* AbbaciView.swift */; };
+		1F32CACE2584633500CD507B /* AbbaciTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CACC2584633500CD507B /* AbbaciTimeline.swift */; };
+		1F32CAD12584636600CD507B /* AbbaciButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CAD02584636600CD507B /* AbbaciButton.swift */; };
+		Animation_swift_BuildFile /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = Animation_swift_FileReference /* Animation.swift */; };
+		AppDelegate_swift_BuildFile /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AppDelegate_swift_FileReference /* AppDelegate.swift */; };
+		Assets_xcassets_BuildFile /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = Assets_xcassets_FileReference /* Assets.xcassets */; };
+		CAKeyframeAnimation_Extension_swift_BuildFile /* CAKeyframeAnimation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAKeyframeAnimation_Extension_swift_FileReference /* CAKeyframeAnimation+Extension.swift */; };
+		CAMediaTimingFunction_Extension_swift_BuildFile /* CAMediaTimingFunction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAMediaTimingFunction_Extension_swift_FileReference /* CAMediaTimingFunction+Extension.swift */; };
+		CATransaction_Extension_swift_BuildFile /* CATransaction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CATransaction_Extension_swift_FileReference /* CATransaction+Extension.swift */; };
+		CGPath_SVG_swift_BuildFile /* CGPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = CGPath_SVG_swift_FileReference /* CGPath+SVG.swift */; };
+		LaunchAnimationTimeline_swift_BuildFile /* LaunchAnimationTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = LaunchAnimationTimeline_swift_FileReference /* LaunchAnimationTimeline.swift */; };
+		LaunchAnimationViewController_swift_BuildFile /* LaunchAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = LaunchAnimationViewController_swift_FileReference /* LaunchAnimationViewController.swift */; };
+		LaunchAnimationView_swift_BuildFile /* LaunchAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = LaunchAnimationView_swift_FileReference /* LaunchAnimationView.swift */; };
+		LaunchScreen_storyboard_BuildFile /* Base in Resources */ = {isa = PBXBuildFile; fileRef = LaunchScreen_storyboard_FileReference /* Base */; };
+		Main_storyboard_BuildFile /* Base in Resources */ = {isa = PBXBuildFile; fileRef = Main_storyboard_FileReference /* Base */; };
+		NSMutableParagraphStyle_Extension_swift_BuildFile /* NSMutableParagraphStyle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = NSMutableParagraphStyle_Extension_swift_FileReference /* NSMutableParagraphStyle+Extension.swift */; };
+		NSShadow_Extension_swift_BuildFile /* NSShadow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = NSShadow_Extension_swift_FileReference /* NSShadow+Extension.swift */; };
+		ShapeView_swift_BuildFile /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ShapeView_swift_FileReference /* ShapeView.swift */; };
+		Sound_swift_BuildFile /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = Sound_swift_FileReference /* Sound.swift */; };
+		TextView_swift_BuildFile /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = TextView_swift_FileReference /* TextView.swift */; };
+		Timeline_swift_BuildFile /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = Timeline_swift_FileReference /* Timeline.swift */; };
+		ToggleButton_swift_BuildFile /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ToggleButton_swift_FileReference /* ToggleButton.swift */; };
+		UIImage_Extension_swift_BuildFile /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = UIImage_Extension_swift_FileReference /* UIImage+Extension.swift */; };
+		UIView_Extension_swift_BuildFile /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = UIView_Extension_swift_FileReference /* UIView+Extension.swift */; };
+		ViewController_swift_BuildFile /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ViewController_swift_FileReference /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F32CACB2584633500CD507B /* AbbaciView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbbaciView.swift; sourceTree = "<group>"; };
+		1F32CACC2584633500CD507B /* AbbaciTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbbaciTimeline.swift; sourceTree = "<group>"; };
+		1F32CAD02584636600CD507B /* AbbaciButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbbaciButton.swift; sourceTree = "<group>"; };
+		Animation_swift_FileReference /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		AppDelegate_swift_FileReference /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		Assets_xcassets_FileReference /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAKeyframeAnimation_Extension_swift_FileReference /* CAKeyframeAnimation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAKeyframeAnimation+Extension.swift"; sourceTree = "<group>"; };
+		CAMediaTimingFunction_Extension_swift_FileReference /* CAMediaTimingFunction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+Extension.swift"; sourceTree = "<group>"; };
+		CATransaction_Extension_swift_FileReference /* CATransaction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATransaction+Extension.swift"; sourceTree = "<group>"; };
+		CGPath_SVG_swift_FileReference /* CGPath+SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPath+SVG.swift"; sourceTree = "<group>"; };
+		Info_plist_FileReference /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		LaunchAnimationTimeline_swift_FileReference /* LaunchAnimationTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchAnimationTimeline.swift; sourceTree = "<group>"; };
+		LaunchAnimationViewController_swift_FileReference /* LaunchAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchAnimationViewController.swift; sourceTree = "<group>"; };
+		LaunchAnimationView_swift_FileReference /* LaunchAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchAnimationView.swift; sourceTree = "<group>"; };
+		LaunchScreen_storyboard_FileReference /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		Main_storyboard_FileReference /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		NSMutableParagraphStyle_Extension_swift_FileReference /* NSMutableParagraphStyle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Extension.swift"; sourceTree = "<group>"; };
+		NSShadow_Extension_swift_FileReference /* NSShadow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSShadow+Extension.swift"; sourceTree = "<group>"; };
+		ShapeView_swift_FileReference /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		Sound_swift_FileReference /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		TextView_swift_FileReference /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		Timeline_swift_FileReference /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		ToggleButton_swift_FileReference /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		UIImage_Extension_swift_FileReference /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		UIView_Extension_swift_FileReference /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		ViewController_swift_FileReference /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		name_app_FileReference /* Checkboxes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Checkboxes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		Frameworks_BuildPhase /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F32CACA2584632100CD507B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CAD02584636600CD507B /* AbbaciButton.swift */,
+				1F32CACC2584633500CD507B /* AbbaciTimeline.swift */,
+				1F32CACB2584633500CD507B /* AbbaciView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		FlowCommon_Group /* FlowCommon */ = {
+			isa = PBXGroup;
+			children = (
+				CGPath_SVG_swift_FileReference /* CGPath+SVG.swift */,
+				ShapeView_swift_FileReference /* ShapeView.swift */,
+				Animation_swift_FileReference /* Animation.swift */,
+				UIView_Extension_swift_FileReference /* UIView+Extension.swift */,
+				UIImage_Extension_swift_FileReference /* UIImage+Extension.swift */,
+				Timeline_swift_FileReference /* Timeline.swift */,
+				CAKeyframeAnimation_Extension_swift_FileReference /* CAKeyframeAnimation+Extension.swift */,
+				NSMutableParagraphStyle_Extension_swift_FileReference /* NSMutableParagraphStyle+Extension.swift */,
+				CATransaction_Extension_swift_FileReference /* CATransaction+Extension.swift */,
+				TextView_swift_FileReference /* TextView.swift */,
+				Sound_swift_FileReference /* Sound.swift */,
+				CAMediaTimingFunction_Extension_swift_FileReference /* CAMediaTimingFunction+Extension.swift */,
+				NSShadow_Extension_swift_FileReference /* NSShadow+Extension.swift */,
+			);
+			path = FlowCommon;
+			sourceTree = "<group>";
+		};
+		LaunchAnimation_Group /* LaunchAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				LaunchAnimationTimeline_swift_FileReference /* LaunchAnimationTimeline.swift */,
+				LaunchAnimationViewController_swift_FileReference /* LaunchAnimationViewController.swift */,
+				LaunchAnimationView_swift_FileReference /* LaunchAnimationView.swift */,
+			);
+			path = LaunchAnimation;
+			sourceTree = "<group>";
+		};
+		Main_Group /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				Resources_Group /* Resources */,
+				Sources_Group /* Sources */,
+				Products_Group /* Products */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		Products_Group /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				name_app_FileReference /* Checkboxes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		Resources_Group /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				Info_plist_FileReference /* Info.plist */,
+				Assets_xcassets_FileReference /* Assets.xcassets */,
+				Main_storyboard_Group /* Main.storyboard */,
+				LaunchScreen_storyboard_Group /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		Sources_Group /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AppDelegate_swift_FileReference /* AppDelegate.swift */,
+				ToggleButton_swift_FileReference /* ToggleButton.swift */,
+				ViewController_swift_FileReference /* ViewController.swift */,
+				1F32CACA2584632100CD507B /* Animations */,
+				FlowCommon_Group /* FlowCommon */,
+				LaunchAnimation_Group /* LaunchAnimation */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		checkboxes_Target /* Checkboxes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = checkboxes_Target_ConfigurationList /* Build configuration list for PBXNativeTarget "Checkboxes" */;
+			buildPhases = (
+				Sources_BuildPhase /* Sources */,
+				Frameworks_BuildPhase /* Frameworks */,
+				Resources_BuildPhase /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Checkboxes;
+			productName = Checkboxes;
+			productReference = name_app_FileReference /* Checkboxes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		checkboxes_Project /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Flow;
+				TargetAttributes = {
+					checkboxes_Target = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = checkboxes_Project_ConfigurationList /* Build configuration list for PBXProject "Checkboxes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = Main_Group /* Main */;
+			productRefGroup = Products_Group /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				checkboxes_Target /* Checkboxes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		Resources_BuildPhase /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				Assets_xcassets_BuildFile /* Assets.xcassets in Resources */,
+				Main_storyboard_BuildFile /* Base in Resources */,
+				LaunchScreen_storyboard_BuildFile /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		Sources_BuildPhase /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				LaunchAnimationView_swift_BuildFile /* LaunchAnimationView.swift in Sources */,
+				LaunchAnimationViewController_swift_BuildFile /* LaunchAnimationViewController.swift in Sources */,
+				LaunchAnimationTimeline_swift_BuildFile /* LaunchAnimationTimeline.swift in Sources */,
+				AppDelegate_swift_BuildFile /* AppDelegate.swift in Sources */,
+				ToggleButton_swift_BuildFile /* ToggleButton.swift in Sources */,
+				CGPath_SVG_swift_BuildFile /* CGPath+SVG.swift in Sources */,
+				ShapeView_swift_BuildFile /* ShapeView.swift in Sources */,
+				Animation_swift_BuildFile /* Animation.swift in Sources */,
+				UIView_Extension_swift_BuildFile /* UIView+Extension.swift in Sources */,
+				UIImage_Extension_swift_BuildFile /* UIImage+Extension.swift in Sources */,
+				Timeline_swift_BuildFile /* Timeline.swift in Sources */,
+				CAKeyframeAnimation_Extension_swift_BuildFile /* CAKeyframeAnimation+Extension.swift in Sources */,
+				NSMutableParagraphStyle_Extension_swift_BuildFile /* NSMutableParagraphStyle+Extension.swift in Sources */,
+				CATransaction_Extension_swift_BuildFile /* CATransaction+Extension.swift in Sources */,
+				TextView_swift_BuildFile /* TextView.swift in Sources */,
+				Sound_swift_BuildFile /* Sound.swift in Sources */,
+				1F32CACE2584633500CD507B /* AbbaciTimeline.swift in Sources */,
+				CAMediaTimingFunction_Extension_swift_BuildFile /* CAMediaTimingFunction+Extension.swift in Sources */,
+				NSShadow_Extension_swift_BuildFile /* NSShadow+Extension.swift in Sources */,
+				1F32CAD12584636600CD507B /* AbbaciButton.swift in Sources */,
+				ViewController_swift_BuildFile /* ViewController.swift in Sources */,
+				1F32CACD2584633500CD507B /* AbbaciView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		LaunchScreen_storyboard_Group /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				LaunchScreen_storyboard_FileReference /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		Main_storyboard_Group /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				Main_storyboard_FileReference /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		Debug_Project_Debug_BuildConfiguration /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		Release_Project_Release_BuildConfiguration /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		checkboxes_Target_Debug_BuildConfiguration /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Flow.Checkboxes.CheckboxesTimeline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		checkboxes_Target_Release_BuildConfiguration /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Flow.Checkboxes.CheckboxesTimeline;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		checkboxes_Project_ConfigurationList /* Build configuration list for PBXProject "Checkboxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				Debug_Project_Debug_BuildConfiguration /* Debug */,
+				Release_Project_Release_BuildConfiguration /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		checkboxes_Target_ConfigurationList /* Build configuration list for PBXNativeTarget "Checkboxes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				checkboxes_Target_Debug_BuildConfiguration /* Debug */,
+				checkboxes_Target_Release_BuildConfiguration /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = checkboxes_Project /* Project object */;
+}
