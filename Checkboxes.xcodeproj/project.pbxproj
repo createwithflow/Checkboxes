@@ -20,6 +20,36 @@
 		1F32CBA82586CD1200CD507B /* AmbianceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBA52586CD1200CD507B /* AmbianceView.swift */; };
 		1F32CBA92586CD1200CD507B /* AmbianceTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBA62586CD1200CD507B /* AmbianceTimeline.swift */; };
 		1F32CBAC2586CD2300CD507B /* AmbianceReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBAB2586CD2300CD507B /* AmbianceReverseTimeline.swift */; };
+		1F32CBB72586CEBD00CD507B /* BounceTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBB42586CEBD00CD507B /* BounceTimeline.swift */; };
+		1F32CBB82586CEBD00CD507B /* BounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBB52586CEBD00CD507B /* BounceView.swift */; };
+		1F32CBB92586CEBD00CD507B /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBB62586CEBD00CD507B /* BounceButton.swift */; };
+		1F32CBBE2586CED000CD507B /* BoxedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBBB2586CED000CD507B /* BoxedView.swift */; };
+		1F32CBBF2586CED000CD507B /* BoxedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBBC2586CED000CD507B /* BoxedButton.swift */; };
+		1F32CBC02586CED000CD507B /* BoxedTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBBD2586CED000CD507B /* BoxedTimeline.swift */; };
+		1F32CBC52586CF0D00CD507B /* BurstButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC22586CF0D00CD507B /* BurstButton.swift */; };
+		1F32CBC62586CF0D00CD507B /* BurstTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC32586CF0D00CD507B /* BurstTimeline.swift */; };
+		1F32CBC72586CF0D00CD507B /* BurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC42586CF0D00CD507B /* BurstView.swift */; };
+		1F32CBCC2586CF4000CD507B /* CheckInTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC92586CF4000CD507B /* CheckInTimeline.swift */; };
+		1F32CBCD2586CF4000CD507B /* CheckInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBCA2586CF4000CD507B /* CheckInButton.swift */; };
+		1F32CBCE2586CF4000CD507B /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBCB2586CF4000CD507B /* CheckInView.swift */; };
+		1F32CBD32586CF4F00CD507B /* DashingTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBD02586CF4F00CD507B /* DashingTimeline.swift */; };
+		1F32CBD42586CF4F00CD507B /* DashingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBD12586CF4F00CD507B /* DashingView.swift */; };
+		1F32CBD52586CF4F00CD507B /* DashingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBD22586CF4F00CD507B /* DashingButton.swift */; };
+		1F32CBDF2586D6A900CD507B /* DidotTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBDC2586D6A900CD507B /* DidotTimeline.swift */; };
+		1F32CBE02586D6A900CD507B /* DidotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBDD2586D6A900CD507B /* DidotButton.swift */; };
+		1F32CBE12586D6A900CD507B /* DidotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBDE2586D6A900CD507B /* DidotView.swift */; };
+		1F32CBE62586D74100CD507B /* DisguiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBE32586D74100CD507B /* DisguiseView.swift */; };
+		1F32CBE72586D74100CD507B /* DisguiseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBE42586D74100CD507B /* DisguiseButton.swift */; };
+		1F32CBE82586D74100CD507B /* DisguiseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBE52586D74100CD507B /* DisguiseTimeline.swift */; };
+		1F32CBED2586D76800CD507B /* FluidTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBEA2586D76700CD507B /* FluidTimeline.swift */; };
+		1F32CBEE2586D76800CD507B /* FluidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBEB2586D76700CD507B /* FluidView.swift */; };
+		1F32CBEF2586D76800CD507B /* FluidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBEC2586D76800CD507B /* FluidButton.swift */; };
+		1F32CBF42586D77900CD507B /* GrownTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBF12586D77900CD507B /* GrownTimeline.swift */; };
+		1F32CBF52586D77900CD507B /* GrownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBF22586D77900CD507B /* GrownView.swift */; };
+		1F32CBF62586D77900CD507B /* GrownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBF32586D77900CD507B /* GrownButton.swift */; };
+		1F32CBFB2586D78E00CD507B /* GuessHowTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBF82586D78D00CD507B /* GuessHowTimeline.swift */; };
+		1F32CBFC2586D78E00CD507B /* GuessHowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBF92586D78D00CD507B /* GuessHowView.swift */; };
+		1F32CBFD2586D78E00CD507B /* GuessHowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBFA2586D78E00CD507B /* GuessHowButton.swift */; };
 		1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87205258481AD00B5B28C /* AlarmTimeline.swift */; };
 		1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87206258481AD00B5B28C /* AlarmView.swift */; };
 		1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87207258481AD00B5B28C /* AlarmButton.swift */; };
@@ -61,6 +91,36 @@
 		1F32CBA52586CD1200CD507B /* AmbianceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbianceView.swift; sourceTree = "<group>"; };
 		1F32CBA62586CD1200CD507B /* AmbianceTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbianceTimeline.swift; sourceTree = "<group>"; };
 		1F32CBAB2586CD2300CD507B /* AmbianceReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbianceReverseTimeline.swift; sourceTree = "<group>"; };
+		1F32CBB42586CEBD00CD507B /* BounceTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceTimeline.swift; sourceTree = "<group>"; };
+		1F32CBB52586CEBD00CD507B /* BounceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceView.swift; sourceTree = "<group>"; };
+		1F32CBB62586CEBD00CD507B /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		1F32CBBB2586CED000CD507B /* BoxedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxedView.swift; sourceTree = "<group>"; };
+		1F32CBBC2586CED000CD507B /* BoxedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxedButton.swift; sourceTree = "<group>"; };
+		1F32CBBD2586CED000CD507B /* BoxedTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxedTimeline.swift; sourceTree = "<group>"; };
+		1F32CBC22586CF0D00CD507B /* BurstButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstButton.swift; sourceTree = "<group>"; };
+		1F32CBC32586CF0D00CD507B /* BurstTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstTimeline.swift; sourceTree = "<group>"; };
+		1F32CBC42586CF0D00CD507B /* BurstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstView.swift; sourceTree = "<group>"; };
+		1F32CBC92586CF4000CD507B /* CheckInTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInTimeline.swift; sourceTree = "<group>"; };
+		1F32CBCA2586CF4000CD507B /* CheckInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInButton.swift; sourceTree = "<group>"; };
+		1F32CBCB2586CF4000CD507B /* CheckInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
+		1F32CBD02586CF4F00CD507B /* DashingTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashingTimeline.swift; sourceTree = "<group>"; };
+		1F32CBD12586CF4F00CD507B /* DashingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashingView.swift; sourceTree = "<group>"; };
+		1F32CBD22586CF4F00CD507B /* DashingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashingButton.swift; sourceTree = "<group>"; };
+		1F32CBDC2586D6A900CD507B /* DidotTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidotTimeline.swift; sourceTree = "<group>"; };
+		1F32CBDD2586D6A900CD507B /* DidotButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidotButton.swift; sourceTree = "<group>"; };
+		1F32CBDE2586D6A900CD507B /* DidotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DidotView.swift; sourceTree = "<group>"; };
+		1F32CBE32586D74100CD507B /* DisguiseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisguiseView.swift; sourceTree = "<group>"; };
+		1F32CBE42586D74100CD507B /* DisguiseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisguiseButton.swift; sourceTree = "<group>"; };
+		1F32CBE52586D74100CD507B /* DisguiseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisguiseTimeline.swift; sourceTree = "<group>"; };
+		1F32CBEA2586D76700CD507B /* FluidTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidTimeline.swift; sourceTree = "<group>"; };
+		1F32CBEB2586D76700CD507B /* FluidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidView.swift; sourceTree = "<group>"; };
+		1F32CBEC2586D76800CD507B /* FluidButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FluidButton.swift; sourceTree = "<group>"; };
+		1F32CBF12586D77900CD507B /* GrownTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrownTimeline.swift; sourceTree = "<group>"; };
+		1F32CBF22586D77900CD507B /* GrownView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrownView.swift; sourceTree = "<group>"; };
+		1F32CBF32586D77900CD507B /* GrownButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrownButton.swift; sourceTree = "<group>"; };
+		1F32CBF82586D78D00CD507B /* GuessHowTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessHowTimeline.swift; sourceTree = "<group>"; };
+		1F32CBF92586D78D00CD507B /* GuessHowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessHowView.swift; sourceTree = "<group>"; };
+		1F32CBFA2586D78E00CD507B /* GuessHowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessHowButton.swift; sourceTree = "<group>"; };
 		1FD87205258481AD00B5B28C /* AlarmTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTimeline.swift; sourceTree = "<group>"; };
 		1FD87206258481AD00B5B28C /* AlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		1FD87207258481AD00B5B28C /* AlarmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmButton.swift; sourceTree = "<group>"; };
@@ -119,6 +179,16 @@
 				1F0A489325847B9200A4C663 /* Alarm */,
 				1F32CB972586CBB600CD507B /* Allinone */,
 				1F32CBA12586CBEC00CD507B /* Ambiance */,
+				1F32CBB32586CE9F00CD507B /* Bounce */,
+				1F32CBB22586CE9800CD507B /* Boxed */,
+				1F32CBB12586CE9000CD507B /* Burst */,
+				1F32CBB02586CE8100CD507B /* CheckIn */,
+				1F32CBAF2586CE7900CD507B /* Dashing */,
+				1F32CBDB2586D5F900CD507B /* Didot */,
+				1F32CBDA2586D5EF00CD507B /* Disguise */,
+				1F32CBD92586D5E800CD507B /* Fluid */,
+				1F32CBD82586D5E100CD507B /* Grown */,
+				1F32CBD72586D5CD00CD507B /* GuessHow */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -162,6 +232,106 @@
 				1F32CBAB2586CD2300CD507B /* AmbianceReverseTimeline.swift */,
 			);
 			path = Ambiance;
+			sourceTree = "<group>";
+		};
+		1F32CBAF2586CE7900CD507B /* Dashing */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBD22586CF4F00CD507B /* DashingButton.swift */,
+				1F32CBD02586CF4F00CD507B /* DashingTimeline.swift */,
+				1F32CBD12586CF4F00CD507B /* DashingView.swift */,
+			);
+			path = Dashing;
+			sourceTree = "<group>";
+		};
+		1F32CBB02586CE8100CD507B /* CheckIn */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBCA2586CF4000CD507B /* CheckInButton.swift */,
+				1F32CBC92586CF4000CD507B /* CheckInTimeline.swift */,
+				1F32CBCB2586CF4000CD507B /* CheckInView.swift */,
+			);
+			path = CheckIn;
+			sourceTree = "<group>";
+		};
+		1F32CBB12586CE9000CD507B /* Burst */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBC22586CF0D00CD507B /* BurstButton.swift */,
+				1F32CBC32586CF0D00CD507B /* BurstTimeline.swift */,
+				1F32CBC42586CF0D00CD507B /* BurstView.swift */,
+			);
+			path = Burst;
+			sourceTree = "<group>";
+		};
+		1F32CBB22586CE9800CD507B /* Boxed */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBBC2586CED000CD507B /* BoxedButton.swift */,
+				1F32CBBD2586CED000CD507B /* BoxedTimeline.swift */,
+				1F32CBBB2586CED000CD507B /* BoxedView.swift */,
+			);
+			path = Boxed;
+			sourceTree = "<group>";
+		};
+		1F32CBB32586CE9F00CD507B /* Bounce */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBB62586CEBD00CD507B /* BounceButton.swift */,
+				1F32CBB42586CEBD00CD507B /* BounceTimeline.swift */,
+				1F32CBB52586CEBD00CD507B /* BounceView.swift */,
+			);
+			path = Bounce;
+			sourceTree = "<group>";
+		};
+		1F32CBD72586D5CD00CD507B /* GuessHow */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBFA2586D78E00CD507B /* GuessHowButton.swift */,
+				1F32CBF82586D78D00CD507B /* GuessHowTimeline.swift */,
+				1F32CBF92586D78D00CD507B /* GuessHowView.swift */,
+			);
+			path = GuessHow;
+			sourceTree = "<group>";
+		};
+		1F32CBD82586D5E100CD507B /* Grown */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBF32586D77900CD507B /* GrownButton.swift */,
+				1F32CBF12586D77900CD507B /* GrownTimeline.swift */,
+				1F32CBF22586D77900CD507B /* GrownView.swift */,
+			);
+			path = Grown;
+			sourceTree = "<group>";
+		};
+		1F32CBD92586D5E800CD507B /* Fluid */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBEC2586D76800CD507B /* FluidButton.swift */,
+				1F32CBEA2586D76700CD507B /* FluidTimeline.swift */,
+				1F32CBEB2586D76700CD507B /* FluidView.swift */,
+			);
+			path = Fluid;
+			sourceTree = "<group>";
+		};
+		1F32CBDA2586D5EF00CD507B /* Disguise */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBE42586D74100CD507B /* DisguiseButton.swift */,
+				1F32CBE52586D74100CD507B /* DisguiseTimeline.swift */,
+				1F32CBE32586D74100CD507B /* DisguiseView.swift */,
+			);
+			path = Disguise;
+			sourceTree = "<group>";
+		};
+		1F32CBDB2586D5F900CD507B /* Didot */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBDD2586D6A900CD507B /* DidotButton.swift */,
+				1F32CBDC2586D6A900CD507B /* DidotTimeline.swift */,
+				1F32CBDE2586D6A900CD507B /* DidotView.swift */,
+			);
+			path = Didot;
 			sourceTree = "<group>";
 		};
 		FlowCommon_Group /* FlowCommon */ = {
@@ -307,38 +477,68 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F32CB9D2586CBCC00CD507B /* AllinoneView.swift in Sources */,
+				1F32CBC72586CF0D00CD507B /* BurstView.swift in Sources */,
+				1F32CBD42586CF4F00CD507B /* DashingView.swift in Sources */,
 				LaunchAnimationView_swift_BuildFile /* LaunchAnimationView.swift in Sources */,
+				1F32CBCD2586CF4000CD507B /* CheckInButton.swift in Sources */,
+				1F32CBDF2586D6A900CD507B /* DidotTimeline.swift in Sources */,
 				LaunchAnimationViewController_swift_BuildFile /* LaunchAnimationViewController.swift in Sources */,
+				1F32CBD32586CF4F00CD507B /* DashingTimeline.swift in Sources */,
+				1F32CBE12586D6A900CD507B /* DidotView.swift in Sources */,
+				1F32CBEE2586D76800CD507B /* FluidView.swift in Sources */,
 				LaunchAnimationTimeline_swift_BuildFile /* LaunchAnimationTimeline.swift in Sources */,
+				1F32CBED2586D76800CD507B /* FluidTimeline.swift in Sources */,
 				AppDelegate_swift_BuildFile /* AppDelegate.swift in Sources */,
 				ToggleButton_swift_BuildFile /* ToggleButton.swift in Sources */,
+				1F32CBE72586D74100CD507B /* DisguiseButton.swift in Sources */,
+				1F32CBFB2586D78E00CD507B /* GuessHowTimeline.swift in Sources */,
 				1F32CBAC2586CD2300CD507B /* AmbianceReverseTimeline.swift in Sources */,
 				CGPath_SVG_swift_BuildFile /* CGPath+SVG.swift in Sources */,
 				ShapeView_swift_BuildFile /* ShapeView.swift in Sources */,
+				1F32CBF42586D77900CD507B /* GrownTimeline.swift in Sources */,
 				Animation_swift_BuildFile /* Animation.swift in Sources */,
 				UIView_Extension_swift_BuildFile /* UIView+Extension.swift in Sources */,
 				UIImage_Extension_swift_BuildFile /* UIImage+Extension.swift in Sources */,
+				1F32CBC52586CF0D00CD507B /* BurstButton.swift in Sources */,
+				1F32CBE62586D74100CD507B /* DisguiseView.swift in Sources */,
+				1F32CBFD2586D78E00CD507B /* GuessHowButton.swift in Sources */,
 				Timeline_swift_BuildFile /* Timeline.swift in Sources */,
+				1F32CBC02586CED000CD507B /* BoxedTimeline.swift in Sources */,
+				1F32CBBE2586CED000CD507B /* BoxedView.swift in Sources */,
 				1F32CB9B2586CBCC00CD507B /* AllinoneTimeline.swift in Sources */,
+				1F32CBB72586CEBD00CD507B /* BounceTimeline.swift in Sources */,
 				1F32CADB258478BB00CD507B /* AffirmView.swift in Sources */,
+				1F32CBEF2586D76800CD507B /* FluidButton.swift in Sources */,
+				1F32CBE02586D6A900CD507B /* DidotButton.swift in Sources */,
+				1F32CBC62586CF0D00CD507B /* BurstTimeline.swift in Sources */,
 				1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */,
 				CAKeyframeAnimation_Extension_swift_BuildFile /* CAKeyframeAnimation+Extension.swift in Sources */,
+				1F32CBB82586CEBD00CD507B /* BounceView.swift in Sources */,
+				1F32CBCC2586CF4000CD507B /* CheckInTimeline.swift in Sources */,
 				1F32CADA258478BB00CD507B /* AffirmTimeline.swift in Sources */,
 				NSMutableParagraphStyle_Extension_swift_BuildFile /* NSMutableParagraphStyle+Extension.swift in Sources */,
 				CATransaction_Extension_swift_BuildFile /* CATransaction+Extension.swift in Sources */,
 				1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */,
 				1F32CB9C2586CBCC00CD507B /* AllinoneButton.swift in Sources */,
 				1F32CADC258478BB00CD507B /* AffirmButton.swift in Sources */,
+				1F32CBBF2586CED000CD507B /* BoxedButton.swift in Sources */,
 				TextView_swift_BuildFile /* TextView.swift in Sources */,
 				Sound_swift_BuildFile /* Sound.swift in Sources */,
 				1F32CACE2584633500CD507B /* AbbaciTimeline.swift in Sources */,
+				1F32CBD52586CF4F00CD507B /* DashingButton.swift in Sources */,
 				CAMediaTimingFunction_Extension_swift_BuildFile /* CAMediaTimingFunction+Extension.swift in Sources */,
+				1F32CBE82586D74100CD507B /* DisguiseTimeline.swift in Sources */,
+				1F32CBB92586CEBD00CD507B /* BounceButton.swift in Sources */,
+				1F32CBCE2586CF4000CD507B /* CheckInView.swift in Sources */,
 				1F32CBA82586CD1200CD507B /* AmbianceView.swift in Sources */,
 				NSShadow_Extension_swift_BuildFile /* NSShadow+Extension.swift in Sources */,
 				1F32CBA72586CD1200CD507B /* AmbianceButton.swift in Sources */,
+				1F32CBF62586D77900CD507B /* GrownButton.swift in Sources */,
 				1F32CAD12584636600CD507B /* AbbaciButton.swift in Sources */,
 				1F32CBA92586CD1200CD507B /* AmbianceTimeline.swift in Sources */,
+				1F32CBF52586D77900CD507B /* GrownView.swift in Sources */,
 				ViewController_swift_BuildFile /* ViewController.swift in Sources */,
+				1F32CBFC2586D78E00CD507B /* GuessHowView.swift in Sources */,
 				1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */,
 				1F32CACD2584633500CD507B /* AbbaciView.swift in Sources */,
 			);

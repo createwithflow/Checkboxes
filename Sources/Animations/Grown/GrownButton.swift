@@ -6,9 +6,9 @@
 import UIKit
 
 @IBDesignable
-class AmbianceButton: ToggleButton {
-    private lazy var ambiance: AmbianceView = {
-        let startView = AmbianceView(frame: .zero)
+class GrownButton: ToggleButton {
+    private lazy var grown: GrownView = {
+        let startView = GrownView(frame: .zero)
         startView.scale(to: frame.size)
         //Since we use scaling, the startView must not clip to bounds 
         startView.clipsToBounds = false
@@ -17,18 +17,18 @@ class AmbianceButton: ToggleButton {
         //Since we are scaling, set the background color of the button, and clear the backgroundColor of the startview
         backgroundColor = startView.backgroundColor
         startView.backgroundColor = .clear
-        return startView
+       return startView
     }()
 
     override var forward: Timeline? {
-        return AmbianceTimeline(view: ambiance, duration: 0.6)
+        return GrownTimeline(view: grown, duration: 0.5)
     }
 
     override var reverse: Timeline? {
-        return AmbianceReverseTimeline(view: ambiance, duration: 0.6)
+        return GrownTimeline(view: grown, duration: 0.5).reversed
     }
 
     override func createView() -> UIView {
-        return ambiance
+        return grown
     }
 }

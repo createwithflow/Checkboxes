@@ -6,9 +6,9 @@
 import UIKit
 
 @IBDesignable
-class AmbianceButton: ToggleButton {
-    private lazy var ambiance: AmbianceView = {
-        let startView = AmbianceView(frame: .zero)
+class GuessHowButton: ToggleButton {
+    private lazy var guessHow: GuessHowView = {
+        let startView = GuessHowView(frame: .zero)
         startView.scale(to: frame.size)
         //Since we use scaling, the startView must not clip to bounds 
         startView.clipsToBounds = false
@@ -21,14 +21,14 @@ class AmbianceButton: ToggleButton {
     }()
 
     override var forward: Timeline? {
-        return AmbianceTimeline(view: ambiance, duration: 0.6)
+        return GuessHowTimeline(view: guessHow, duration: 0.5)
     }
 
     override var reverse: Timeline? {
-        return AmbianceReverseTimeline(view: ambiance, duration: 0.6)
+        return GuessHowTimeline(view: guessHow, duration: 0.5).reversed
     }
 
     override func createView() -> UIView {
-        return ambiance
+        return guessHow
     }
 }
