@@ -8,6 +8,7 @@ import UIKit
 
 class ToggleButton: UIButton {
     weak var delegate: ToggleButtonDelegate?
+    var current: Timeline?
 
     public var forward: Timeline? {
         return nil
@@ -36,6 +37,7 @@ class ToggleButton: UIButton {
     private func setup() {
         setupView()
         addTarget(self, action: #selector(toggle), for: .touchUpInside)
+        current = forward
     }
 
     private func setupView() {
@@ -45,11 +47,19 @@ class ToggleButton: UIButton {
 
     @objc
     func toggle() {
-        if isSelected {
-            reverse?.play()
-        } else {
-            forward?.play()
+        guard let _ = current else {
+            return
         }
+        current?.pause()
+        let newTime = current!.duration - current!.time
+        if isSelected {
+            current = reverse
+        } else {
+            current = forward
+        }
+        current?.reset()
+        current?.offset(to: newTime)
+        current?.play()
         super.isSelected = !isSelected
         delegate?.didToggle(sender: self)
     }

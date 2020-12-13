@@ -46,6 +46,10 @@ open class Timeline {
 
     public weak var delegate: TimelineDelegate?
 
+    private var resetDispatchGroup: DispatchGroup?
+    private var resetting = false
+    private var shouldAutoPlay = false
+
     // MARK: - Initializers
 
     public convenience init(view: UIView, animationsByLayer: [CALayer: [CAKeyframeAnimation]], sounds: [(sound: AVAudioPlayer, delay: TimeInterval)], duration: TimeInterval, autoreverses: Bool = false, repeatCount: Float = 0) {
@@ -64,21 +68,52 @@ open class Timeline {
         self.autoreverses = autoreverses
         self.repeatCount = repeatCount
         self.animations = animations
-        self.animations.first?.delegate = self
+        for animation in animations {
+            animation.delegate = self
+        }
     }
 
     // MARK: - Timeline Playback controls
 
     /// Reset to the initial state of the timeline
     public func reset() {
+        if resetting {
+            //no need to reset
+            return
+        }
+        resetting = true
+        //create a dispatch group to track when all animations have reset
+        resetDispatchGroup = DispatchGroup()
         for animation in animations {
+            resetDispatchGroup?.enter()
             animation.reset()
+        }
+        resetDispatchGroup?.notify(queue: .main) {
+            self.didReset()
+        }
+    }
+
+    private func didReset() {
+        resetting = false
+        if shouldAutoPlay {
+            shouldAutoPlay = false
+            play()
         }
         delegate?.didReset(timeline: self)
     }
 
     /// Resume playing the timeline.
     public func play() {
+        //if the current timeline is in process of resetting...
+        if resetting {
+            //set autoplay to true
+            shouldAutoPlay = true
+            return
+        }
+        pause()
+        if time >= duration {
+            reset()
+        }
         playSounds()
         for animation in animations {
             animation.play()
@@ -101,12 +136,11 @@ open class Timeline {
     }
 
     /// Show timeline at time `time`.
-    public func offset(to time: TimeInterval) {
-        let time = max(min(time, duration), 0)
+    public func offset(to newTime: TimeInterval) {
+        let clampedNewTime = max(min(newTime, duration), 0)
         for animation in animations {
-            animation.offset(to: time)
+            animation.offset(to: clampedNewTime)
         }
-        delegate?.didOffset(timeline: self, to: time)
     }
 
     /// Returns a reverses version of `self`.
@@ -119,6 +153,10 @@ open class Timeline {
 extension Timeline: AnimationDelegate {
     func didStop(animation: Animation) {
         delegate?.didStop(timeline: self)
+    }
+
+    func ready(animation: Animation) {
+        resetDispatchGroup?.leave()
     }
 }
 
