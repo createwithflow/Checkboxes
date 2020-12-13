@@ -37,7 +37,7 @@ public class AlarmView: UIView {
         addSubviews()
         //scale(to: frame.size)
     }
-
+    
     /// Scales `self` and its subviews to `size`.
     ///
     /// - Parameter size: The size `self` is scaled to.

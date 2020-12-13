@@ -13,6 +13,13 @@
 		1F32CADA258478BB00CD507B /* AffirmTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CAD7258478BB00CD507B /* AffirmTimeline.swift */; };
 		1F32CADB258478BB00CD507B /* AffirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CAD8258478BB00CD507B /* AffirmView.swift */; };
 		1F32CADC258478BB00CD507B /* AffirmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CAD9258478BB00CD507B /* AffirmButton.swift */; };
+		1F32CB9B2586CBCC00CD507B /* AllinoneTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CB982586CBCC00CD507B /* AllinoneTimeline.swift */; };
+		1F32CB9C2586CBCC00CD507B /* AllinoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CB992586CBCC00CD507B /* AllinoneButton.swift */; };
+		1F32CB9D2586CBCC00CD507B /* AllinoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CB9A2586CBCC00CD507B /* AllinoneView.swift */; };
+		1F32CBA72586CD1200CD507B /* AmbianceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBA42586CD1200CD507B /* AmbianceButton.swift */; };
+		1F32CBA82586CD1200CD507B /* AmbianceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBA52586CD1200CD507B /* AmbianceView.swift */; };
+		1F32CBA92586CD1200CD507B /* AmbianceTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBA62586CD1200CD507B /* AmbianceTimeline.swift */; };
+		1F32CBAC2586CD2300CD507B /* AmbianceReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBAB2586CD2300CD507B /* AmbianceReverseTimeline.swift */; };
 		1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87205258481AD00B5B28C /* AlarmTimeline.swift */; };
 		1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87206258481AD00B5B28C /* AlarmView.swift */; };
 		1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87207258481AD00B5B28C /* AlarmButton.swift */; };
@@ -47,6 +54,13 @@
 		1F32CAD7258478BB00CD507B /* AffirmTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffirmTimeline.swift; sourceTree = "<group>"; };
 		1F32CAD8258478BB00CD507B /* AffirmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffirmView.swift; sourceTree = "<group>"; };
 		1F32CAD9258478BB00CD507B /* AffirmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AffirmButton.swift; sourceTree = "<group>"; };
+		1F32CB982586CBCC00CD507B /* AllinoneTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllinoneTimeline.swift; sourceTree = "<group>"; };
+		1F32CB992586CBCC00CD507B /* AllinoneButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllinoneButton.swift; sourceTree = "<group>"; };
+		1F32CB9A2586CBCC00CD507B /* AllinoneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllinoneView.swift; sourceTree = "<group>"; };
+		1F32CBA42586CD1200CD507B /* AmbianceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbianceButton.swift; sourceTree = "<group>"; };
+		1F32CBA52586CD1200CD507B /* AmbianceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbianceView.swift; sourceTree = "<group>"; };
+		1F32CBA62586CD1200CD507B /* AmbianceTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbianceTimeline.swift; sourceTree = "<group>"; };
+		1F32CBAB2586CD2300CD507B /* AmbianceReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmbianceReverseTimeline.swift; sourceTree = "<group>"; };
 		1FD87205258481AD00B5B28C /* AlarmTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTimeline.swift; sourceTree = "<group>"; };
 		1FD87206258481AD00B5B28C /* AlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		1FD87207258481AD00B5B28C /* AlarmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmButton.swift; sourceTree = "<group>"; };
@@ -103,6 +117,8 @@
 				1F32CADE258478C100CD507B /* Abbaci */,
 				1F32CADF258478D200CD507B /* Affirm */,
 				1F0A489325847B9200A4C663 /* Alarm */,
+				1F32CB972586CBB600CD507B /* Allinone */,
+				1F32CBA12586CBEC00CD507B /* Ambiance */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -125,6 +141,27 @@
 				1F32CAD8258478BB00CD507B /* AffirmView.swift */,
 			);
 			path = Affirm;
+			sourceTree = "<group>";
+		};
+		1F32CB972586CBB600CD507B /* Allinone */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CB992586CBCC00CD507B /* AllinoneButton.swift */,
+				1F32CB982586CBCC00CD507B /* AllinoneTimeline.swift */,
+				1F32CB9A2586CBCC00CD507B /* AllinoneView.swift */,
+			);
+			path = Allinone;
+			sourceTree = "<group>";
+		};
+		1F32CBA12586CBEC00CD507B /* Ambiance */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CBA42586CD1200CD507B /* AmbianceButton.swift */,
+				1F32CBA62586CD1200CD507B /* AmbianceTimeline.swift */,
+				1F32CBA52586CD1200CD507B /* AmbianceView.swift */,
+				1F32CBAB2586CD2300CD507B /* AmbianceReverseTimeline.swift */,
+			);
+			path = Ambiance;
 			sourceTree = "<group>";
 		};
 		FlowCommon_Group /* FlowCommon */ = {
@@ -269,17 +306,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F32CB9D2586CBCC00CD507B /* AllinoneView.swift in Sources */,
 				LaunchAnimationView_swift_BuildFile /* LaunchAnimationView.swift in Sources */,
 				LaunchAnimationViewController_swift_BuildFile /* LaunchAnimationViewController.swift in Sources */,
 				LaunchAnimationTimeline_swift_BuildFile /* LaunchAnimationTimeline.swift in Sources */,
 				AppDelegate_swift_BuildFile /* AppDelegate.swift in Sources */,
 				ToggleButton_swift_BuildFile /* ToggleButton.swift in Sources */,
+				1F32CBAC2586CD2300CD507B /* AmbianceReverseTimeline.swift in Sources */,
 				CGPath_SVG_swift_BuildFile /* CGPath+SVG.swift in Sources */,
 				ShapeView_swift_BuildFile /* ShapeView.swift in Sources */,
 				Animation_swift_BuildFile /* Animation.swift in Sources */,
 				UIView_Extension_swift_BuildFile /* UIView+Extension.swift in Sources */,
 				UIImage_Extension_swift_BuildFile /* UIImage+Extension.swift in Sources */,
 				Timeline_swift_BuildFile /* Timeline.swift in Sources */,
+				1F32CB9B2586CBCC00CD507B /* AllinoneTimeline.swift in Sources */,
 				1F32CADB258478BB00CD507B /* AffirmView.swift in Sources */,
 				1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */,
 				CAKeyframeAnimation_Extension_swift_BuildFile /* CAKeyframeAnimation+Extension.swift in Sources */,
@@ -287,13 +327,17 @@
 				NSMutableParagraphStyle_Extension_swift_BuildFile /* NSMutableParagraphStyle+Extension.swift in Sources */,
 				CATransaction_Extension_swift_BuildFile /* CATransaction+Extension.swift in Sources */,
 				1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */,
+				1F32CB9C2586CBCC00CD507B /* AllinoneButton.swift in Sources */,
 				1F32CADC258478BB00CD507B /* AffirmButton.swift in Sources */,
 				TextView_swift_BuildFile /* TextView.swift in Sources */,
 				Sound_swift_BuildFile /* Sound.swift in Sources */,
 				1F32CACE2584633500CD507B /* AbbaciTimeline.swift in Sources */,
 				CAMediaTimingFunction_Extension_swift_BuildFile /* CAMediaTimingFunction+Extension.swift in Sources */,
+				1F32CBA82586CD1200CD507B /* AmbianceView.swift in Sources */,
 				NSShadow_Extension_swift_BuildFile /* NSShadow+Extension.swift in Sources */,
+				1F32CBA72586CD1200CD507B /* AmbianceButton.swift in Sources */,
 				1F32CAD12584636600CD507B /* AbbaciButton.swift in Sources */,
+				1F32CBA92586CD1200CD507B /* AmbianceTimeline.swift in Sources */,
 				ViewController_swift_BuildFile /* ViewController.swift in Sources */,
 				1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */,
 				1F32CACD2584633500CD507B /* AbbaciView.swift in Sources */,

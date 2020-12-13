@@ -8,38 +8,38 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="7E494AD1-EA86-47F4-93BC-6C3D95BD3CC8">
+        <scene sceneID="B0D668AE-5AFE-4A62-BD5D-144E3671EDA8">
             <objects>
                 <viewController storyboardIdentifier="ViewController" id="ViewController" customClass="ViewController" customModule="Checkboxes" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="216EE44A-C8F2-46D7-A762-231ADE5CA37F"/>
-                        <viewControllerLayoutGuide type="bottom" id="27F3486E-2243-4FE7-9BD9-38BDFD7FC04E"/>
+                        <viewControllerLayoutGuide type="top" id="37C61C4F-C193-462B-816C-02002DE24C75"/>
+                        <viewControllerLayoutGuide type="bottom" id="A150B262-6062-44C5-9F0A-DC4BE6AC46CD"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009">
+                    <view key="view" contentMode="scaleToFill" id="90AFDE1B-494B-42A2-B855-0D8A63E4801A">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="705781BA-1BD4-4144-96D2-482936B34B9E" customClass="AlarmButton" customModule="Checkboxes" customModuleProvider="target">
-                                <rect key="frame" x="172" y="277" width="66" height="73"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58C80476-F56D-4032-82D3-935BADF876F0" customClass="AmbianceButton" customModule="Checkboxes" customModuleProvider="target">
+                                <rect key="frame" x="171.5" y="317.5" width="32" height="32"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="73" id="opV-ms-vXv"/>
-                                    <constraint firstAttribute="width" constant="66" id="sjb-Zv-Qk0"/>
+                                    <constraint firstAttribute="height" constant="32" id="opV-ms-vXv"/>
+                                    <constraint firstAttribute="width" constant="32" id="sjb-Zv-Qk0"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerY" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerY" constant="-20" id="2986C4E1-CA4B-4B02-90A6-61ABA186BD1F"/>
-                            <constraint firstItem="705781BA-1BD4-4144-96D2-482936B34B9E" firstAttribute="centerX" secondItem="A90DCB5F-C8C9-4C49-8D36-EBE87DFC7009" secondAttribute="centerX" constant="17.5" id="5DBE505C-9E17-4DC3-9FC0-8D53980EC785"/>
+                            <constraint firstItem="58C80476-F56D-4032-82D3-935BADF876F0" firstAttribute="centerY" secondItem="90AFDE1B-494B-42A2-B855-0D8A63E4801A" secondAttribute="centerY" id="CC8EC9DA-4B75-466A-B547-BE2891C708DD"/>
+                            <constraint firstItem="58C80476-F56D-4032-82D3-935BADF876F0" firstAttribute="centerX" secondItem="90AFDE1B-494B-42A2-B855-0D8A63E4801A" secondAttribute="centerX" id="D623E81C-BE00-42DE-A0C9-E02C41C32DAA"/>
                         </constraints>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="32" height="32"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="072895EE-2A50-48C7-820B-E2CC720E2FE5" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F9821E58-BEC7-468D-9716-89F8C8529F5B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-0.80000000000000004" y="-0.44977511244377816"/>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
         <!--Launch Animation View Controller-->
         <scene sceneID="uPg-I4-Jwi">
@@ -77,9 +77,4 @@
             <point key="canvasLocation" x="-1" y="649"/>
         </scene>
     </scenes>
-    <designables>
-        <designable name="CJs-KB-Ydh">
-            <size key="intrinsicContentSize" width="290" height="60"/>
-        </designable>
-    </designables>
 </document>
