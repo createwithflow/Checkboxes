@@ -50,6 +50,59 @@
 		1F32CBFB2586D78E00CD507B /* GuessHowTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBF82586D78D00CD507B /* GuessHowTimeline.swift */; };
 		1F32CBFC2586D78E00CD507B /* GuessHowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBF92586D78D00CD507B /* GuessHowView.swift */; };
 		1F32CBFD2586D78E00CD507B /* GuessHowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBFA2586D78E00CD507B /* GuessHowButton.swift */; };
+		1F32CC0A258705EE00CD507B /* LayersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC07258705EE00CD507B /* LayersView.swift */; };
+		1F32CC0B258705EE00CD507B /* LayersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC08258705EE00CD507B /* LayersButton.swift */; };
+		1F32CC0C258705EE00CD507B /* LayersTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC09258705EE00CD507B /* LayersTimeline.swift */; };
+		1F32CC11258706C200CD507B /* LovelyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC0E258706C200CD507B /* LovelyButton.swift */; };
+		1F32CC12258706C200CD507B /* LovelyTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC0F258706C200CD507B /* LovelyTimeline.swift */; };
+		1F32CC13258706C200CD507B /* LovelyMaskedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC10258706C200CD507B /* LovelyMaskedView.swift */; };
+		1F32CC18258706DC00CD507B /* MondoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC15258706DC00CD507B /* MondoButton.swift */; };
+		1F32CC19258706DC00CD507B /* MondoTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC16258706DC00CD507B /* MondoTimeline.swift */; };
+		1F32CC1A258706DC00CD507B /* MondoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC17258706DC00CD507B /* MondoView.swift */; };
+		1F32CC1F258706F400CD507B /* OvertTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC1C258706F400CD507B /* OvertTimeline.swift */; };
+		1F32CC20258706F400CD507B /* OvertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC1D258706F400CD507B /* OvertButton.swift */; };
+		1F32CC21258706F400CD507B /* OvertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC1E258706F400CD507B /* OvertView.swift */; };
+		1F32CC262587070A00CD507B /* PartitionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC232587070900CD507B /* PartitionButton.swift */; };
+		1F32CC272587070A00CD507B /* PartitionTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC242587070900CD507B /* PartitionTimeline.swift */; };
+		1F32CC282587070A00CD507B /* PartitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC252587070A00CD507B /* PartitionView.swift */; };
+		1F32CC2B2587075C00CD507B /* LovelyReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC2A2587075C00CD507B /* LovelyReverseTimeline.swift */; };
+		1F32CC3525870A9E00CD507B /* PinkieButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC3225870A9E00CD507B /* PinkieButton.swift */; };
+		1F32CC3625870A9E00CD507B /* PinkieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC3325870A9E00CD507B /* PinkieView.swift */; };
+		1F32CC3725870A9E00CD507B /* PinkieTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC3425870A9E00CD507B /* PinkieTimeline.swift */; };
+		1F32CC3C25870AD200CD507B /* PopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC3925870AD200CD507B /* PopButton.swift */; };
+		1F32CC3D25870AD200CD507B /* PopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC3A25870AD200CD507B /* PopView.swift */; };
+		1F32CC3E25870AD200CD507B /* PopTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC3B25870AD200CD507B /* PopTimeline.swift */; };
+		1F32CC4325870AE500CD507B /* PrimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC4025870AE400CD507B /* PrimeButton.swift */; };
+		1F32CC4525870AE500CD507B /* PrimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC4225870AE500CD507B /* PrimeView.swift */; };
+		1F32CC5225870B3200CD507B /* SimpletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC4F25870B3100CD507B /* SimpletonView.swift */; };
+		1F32CC5325870B3200CD507B /* SimpletonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC5025870B3100CD507B /* SimpletonButton.swift */; };
+		1F32CC5D25870C5300CD507B /* PopReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC5C25870C5300CD507B /* PopReverseTimeline.swift */; };
+		1F32CC6125870CE000CD507B /* PrimeTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC6025870CE000CD507B /* PrimeTimeline.swift */; };
+		1F32CC6C258719F200CD507B /* SimpletonTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC6B258719F200CD507B /* SimpletonTimeline.swift */; };
+		1F32CC7325871A6100CD507B /* SimpletonReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC7225871A6100CD507B /* SimpletonReverseTimeline.swift */; };
+		1F32CC8F2587205300CD507B /* SlicesTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC8C2587205300CD507B /* SlicesTimeline.swift */; };
+		1F32CC902587205300CD507B /* SlicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC8D2587205300CD507B /* SlicesView.swift */; };
+		1F32CC912587205300CD507B /* SlicesButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC8E2587205300CD507B /* SlicesButton.swift */; };
+		1F32CC96258720B100CD507B /* StarburstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC93258720B100CD507B /* StarburstView.swift */; };
+		1F32CC97258720B100CD507B /* StarburstTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC94258720B100CD507B /* StarburstTimeline.swift */; };
+		1F32CC98258720B100CD507B /* StarburstButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC95258720B100CD507B /* StarburstButton.swift */; };
+		1F32CC9B258720BE00CD507B /* StarburstReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC9A258720BE00CD507B /* StarburstReverseTimeline.swift */; };
+		1F32CCA0258720CF00CD507B /* TickView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC9D258720CF00CD507B /* TickView.swift */; };
+		1F32CCA1258720CF00CD507B /* TickButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC9E258720CF00CD507B /* TickButton.swift */; };
+		1F32CCA2258720CF00CD507B /* TickTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CC9F258720CF00CD507B /* TickTimeline.swift */; };
+		1F32CCA8258720E100CD507B /* TracerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCA5258720E100CD507B /* TracerView.swift */; };
+		1F32CCA9258720E100CD507B /* TracerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCA6258720E100CD507B /* TracerButton.swift */; };
+		1F32CCAE258720F300CD507B /* TransitiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCAB258720F300CD507B /* TransitiveButton.swift */; };
+		1F32CCAF258720F300CD507B /* TransitiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCAC258720F300CD507B /* TransitiveView.swift */; };
+		1F32CCB0258720F300CD507B /* TransitiveTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCAD258720F300CD507B /* TransitiveTimeline.swift */; };
+		1F32CCB52587210400CD507B /* WeeblyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCB22587210400CD507B /* WeeblyButton.swift */; };
+		1F32CCB62587210400CD507B /* WeeblyTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCB32587210400CD507B /* WeeblyTimeline.swift */; };
+		1F32CCB72587210400CD507B /* WeeblyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCB42587210400CD507B /* WeeblyView.swift */; };
+		1F32CCBC2587211A00CD507B /* WindmillButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCB92587211A00CD507B /* WindmillButton.swift */; };
+		1F32CCBD2587211A00CD507B /* WindmillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCBA2587211A00CD507B /* WindmillView.swift */; };
+		1F32CCBE2587211A00CD507B /* WindmillTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCBB2587211A00CD507B /* WindmillTimeline.swift */; };
+		1F32CCC12587212A00CD507B /* WindmillReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCC02587212A00CD507B /* WindmillReverseTimeline.swift */; };
+		1F32CCC52587229500CD507B /* TracerTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCC42587229500CD507B /* TracerTimeline.swift */; };
 		1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87205258481AD00B5B28C /* AlarmTimeline.swift */; };
 		1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87206258481AD00B5B28C /* AlarmView.swift */; };
 		1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87207258481AD00B5B28C /* AlarmButton.swift */; };
@@ -121,6 +174,59 @@
 		1F32CBF82586D78D00CD507B /* GuessHowTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessHowTimeline.swift; sourceTree = "<group>"; };
 		1F32CBF92586D78D00CD507B /* GuessHowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessHowView.swift; sourceTree = "<group>"; };
 		1F32CBFA2586D78E00CD507B /* GuessHowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuessHowButton.swift; sourceTree = "<group>"; };
+		1F32CC07258705EE00CD507B /* LayersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayersView.swift; sourceTree = "<group>"; };
+		1F32CC08258705EE00CD507B /* LayersButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayersButton.swift; sourceTree = "<group>"; };
+		1F32CC09258705EE00CD507B /* LayersTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayersTimeline.swift; sourceTree = "<group>"; };
+		1F32CC0E258706C200CD507B /* LovelyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LovelyButton.swift; sourceTree = "<group>"; };
+		1F32CC0F258706C200CD507B /* LovelyTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LovelyTimeline.swift; sourceTree = "<group>"; };
+		1F32CC10258706C200CD507B /* LovelyMaskedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LovelyMaskedView.swift; sourceTree = "<group>"; };
+		1F32CC15258706DC00CD507B /* MondoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MondoButton.swift; sourceTree = "<group>"; };
+		1F32CC16258706DC00CD507B /* MondoTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MondoTimeline.swift; sourceTree = "<group>"; };
+		1F32CC17258706DC00CD507B /* MondoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MondoView.swift; sourceTree = "<group>"; };
+		1F32CC1C258706F400CD507B /* OvertTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertTimeline.swift; sourceTree = "<group>"; };
+		1F32CC1D258706F400CD507B /* OvertButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertButton.swift; sourceTree = "<group>"; };
+		1F32CC1E258706F400CD507B /* OvertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvertView.swift; sourceTree = "<group>"; };
+		1F32CC232587070900CD507B /* PartitionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartitionButton.swift; sourceTree = "<group>"; };
+		1F32CC242587070900CD507B /* PartitionTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartitionTimeline.swift; sourceTree = "<group>"; };
+		1F32CC252587070A00CD507B /* PartitionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartitionView.swift; sourceTree = "<group>"; };
+		1F32CC2A2587075C00CD507B /* LovelyReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LovelyReverseTimeline.swift; sourceTree = "<group>"; };
+		1F32CC3225870A9E00CD507B /* PinkieButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkieButton.swift; sourceTree = "<group>"; };
+		1F32CC3325870A9E00CD507B /* PinkieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkieView.swift; sourceTree = "<group>"; };
+		1F32CC3425870A9E00CD507B /* PinkieTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinkieTimeline.swift; sourceTree = "<group>"; };
+		1F32CC3925870AD200CD507B /* PopButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopButton.swift; sourceTree = "<group>"; };
+		1F32CC3A25870AD200CD507B /* PopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopView.swift; sourceTree = "<group>"; };
+		1F32CC3B25870AD200CD507B /* PopTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopTimeline.swift; sourceTree = "<group>"; };
+		1F32CC4025870AE400CD507B /* PrimeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeButton.swift; sourceTree = "<group>"; };
+		1F32CC4225870AE500CD507B /* PrimeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeView.swift; sourceTree = "<group>"; };
+		1F32CC4F25870B3100CD507B /* SimpletonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpletonView.swift; sourceTree = "<group>"; };
+		1F32CC5025870B3100CD507B /* SimpletonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpletonButton.swift; sourceTree = "<group>"; };
+		1F32CC5C25870C5300CD507B /* PopReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopReverseTimeline.swift; sourceTree = "<group>"; };
+		1F32CC6025870CE000CD507B /* PrimeTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimeTimeline.swift; sourceTree = "<group>"; };
+		1F32CC6B258719F200CD507B /* SimpletonTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpletonTimeline.swift; sourceTree = "<group>"; };
+		1F32CC7225871A6100CD507B /* SimpletonReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpletonReverseTimeline.swift; sourceTree = "<group>"; };
+		1F32CC8C2587205300CD507B /* SlicesTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlicesTimeline.swift; sourceTree = "<group>"; };
+		1F32CC8D2587205300CD507B /* SlicesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlicesView.swift; sourceTree = "<group>"; };
+		1F32CC8E2587205300CD507B /* SlicesButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlicesButton.swift; sourceTree = "<group>"; };
+		1F32CC93258720B100CD507B /* StarburstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarburstView.swift; sourceTree = "<group>"; };
+		1F32CC94258720B100CD507B /* StarburstTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarburstTimeline.swift; sourceTree = "<group>"; };
+		1F32CC95258720B100CD507B /* StarburstButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarburstButton.swift; sourceTree = "<group>"; };
+		1F32CC9A258720BE00CD507B /* StarburstReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarburstReverseTimeline.swift; sourceTree = "<group>"; };
+		1F32CC9D258720CF00CD507B /* TickView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickView.swift; sourceTree = "<group>"; };
+		1F32CC9E258720CF00CD507B /* TickButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickButton.swift; sourceTree = "<group>"; };
+		1F32CC9F258720CF00CD507B /* TickTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickTimeline.swift; sourceTree = "<group>"; };
+		1F32CCA5258720E100CD507B /* TracerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracerView.swift; sourceTree = "<group>"; };
+		1F32CCA6258720E100CD507B /* TracerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracerButton.swift; sourceTree = "<group>"; };
+		1F32CCAB258720F300CD507B /* TransitiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitiveButton.swift; sourceTree = "<group>"; };
+		1F32CCAC258720F300CD507B /* TransitiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitiveView.swift; sourceTree = "<group>"; };
+		1F32CCAD258720F300CD507B /* TransitiveTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitiveTimeline.swift; sourceTree = "<group>"; };
+		1F32CCB22587210400CD507B /* WeeblyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeblyButton.swift; sourceTree = "<group>"; };
+		1F32CCB32587210400CD507B /* WeeblyTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeblyTimeline.swift; sourceTree = "<group>"; };
+		1F32CCB42587210400CD507B /* WeeblyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeblyView.swift; sourceTree = "<group>"; };
+		1F32CCB92587211A00CD507B /* WindmillButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindmillButton.swift; sourceTree = "<group>"; };
+		1F32CCBA2587211A00CD507B /* WindmillView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindmillView.swift; sourceTree = "<group>"; };
+		1F32CCBB2587211A00CD507B /* WindmillTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindmillTimeline.swift; sourceTree = "<group>"; };
+		1F32CCC02587212A00CD507B /* WindmillReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindmillReverseTimeline.swift; sourceTree = "<group>"; };
+		1F32CCC42587229500CD507B /* TracerTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracerTimeline.swift; sourceTree = "<group>"; };
 		1FD87205258481AD00B5B28C /* AlarmTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTimeline.swift; sourceTree = "<group>"; };
 		1FD87206258481AD00B5B28C /* AlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		1FD87207258481AD00B5B28C /* AlarmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmButton.swift; sourceTree = "<group>"; };
@@ -189,6 +295,22 @@
 				1F32CBD92586D5E800CD507B /* Fluid */,
 				1F32CBD82586D5E100CD507B /* Grown */,
 				1F32CBD72586D5CD00CD507B /* GuessHow */,
+				1F32CC06258705CF00CD507B /* Layers */,
+				1F32CC05258705C800CD507B /* Lovely */,
+				1F32CC04258705B900CD507B /* Mondo */,
+				1F32CC03258705B300CD507B /* Overt */,
+				1F32CC022587059A00CD507B /* Partition */,
+				1F32CC312587083700CD507B /* Pinkie */,
+				1F32CC302587082C00CD507B /* Pop */,
+				1F32CC2F2587082500CD507B /* Prime */,
+				1F32CC2D2587080600CD507B /* Simpleton */,
+				1F32CC8B2587204700CD507B /* Slices */,
+				1F32CC8A2587203D00CD507B /* Starburst */,
+				1F32CC892587203700CD507B /* Tick */,
+				1F32CC882587203000CD507B /* Tracer */,
+				1F32CC872587202700CD507B /* Transitive */,
+				1F32CC862587201A00CD507B /* Weebly */,
+				1F32CC852587200D00CD507B /* Windmill */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -334,6 +456,171 @@
 			path = Didot;
 			sourceTree = "<group>";
 		};
+		1F32CC022587059A00CD507B /* Partition */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC232587070900CD507B /* PartitionButton.swift */,
+				1F32CC242587070900CD507B /* PartitionTimeline.swift */,
+				1F32CC252587070A00CD507B /* PartitionView.swift */,
+			);
+			path = Partition;
+			sourceTree = "<group>";
+		};
+		1F32CC03258705B300CD507B /* Overt */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC1D258706F400CD507B /* OvertButton.swift */,
+				1F32CC1C258706F400CD507B /* OvertTimeline.swift */,
+				1F32CC1E258706F400CD507B /* OvertView.swift */,
+			);
+			path = Overt;
+			sourceTree = "<group>";
+		};
+		1F32CC04258705B900CD507B /* Mondo */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC15258706DC00CD507B /* MondoButton.swift */,
+				1F32CC16258706DC00CD507B /* MondoTimeline.swift */,
+				1F32CC17258706DC00CD507B /* MondoView.swift */,
+			);
+			path = Mondo;
+			sourceTree = "<group>";
+		};
+		1F32CC05258705C800CD507B /* Lovely */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC0E258706C200CD507B /* LovelyButton.swift */,
+				1F32CC10258706C200CD507B /* LovelyMaskedView.swift */,
+				1F32CC0F258706C200CD507B /* LovelyTimeline.swift */,
+				1F32CC2A2587075C00CD507B /* LovelyReverseTimeline.swift */,
+			);
+			path = Lovely;
+			sourceTree = "<group>";
+		};
+		1F32CC06258705CF00CD507B /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC08258705EE00CD507B /* LayersButton.swift */,
+				1F32CC09258705EE00CD507B /* LayersTimeline.swift */,
+				1F32CC07258705EE00CD507B /* LayersView.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		1F32CC2D2587080600CD507B /* Simpleton */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC5025870B3100CD507B /* SimpletonButton.swift */,
+				1F32CC6B258719F200CD507B /* SimpletonTimeline.swift */,
+				1F32CC7225871A6100CD507B /* SimpletonReverseTimeline.swift */,
+				1F32CC4F25870B3100CD507B /* SimpletonView.swift */,
+			);
+			path = Simpleton;
+			sourceTree = "<group>";
+		};
+		1F32CC2F2587082500CD507B /* Prime */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC4025870AE400CD507B /* PrimeButton.swift */,
+				1F32CC6025870CE000CD507B /* PrimeTimeline.swift */,
+				1F32CC4225870AE500CD507B /* PrimeView.swift */,
+			);
+			path = Prime;
+			sourceTree = "<group>";
+		};
+		1F32CC302587082C00CD507B /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC3925870AD200CD507B /* PopButton.swift */,
+				1F32CC3B25870AD200CD507B /* PopTimeline.swift */,
+				1F32CC5C25870C5300CD507B /* PopReverseTimeline.swift */,
+				1F32CC3A25870AD200CD507B /* PopView.swift */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		1F32CC312587083700CD507B /* Pinkie */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC3225870A9E00CD507B /* PinkieButton.swift */,
+				1F32CC3425870A9E00CD507B /* PinkieTimeline.swift */,
+				1F32CC3325870A9E00CD507B /* PinkieView.swift */,
+			);
+			path = Pinkie;
+			sourceTree = "<group>";
+		};
+		1F32CC852587200D00CD507B /* Windmill */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CCB92587211A00CD507B /* WindmillButton.swift */,
+				1F32CCBB2587211A00CD507B /* WindmillTimeline.swift */,
+				1F32CCC02587212A00CD507B /* WindmillReverseTimeline.swift */,
+				1F32CCBA2587211A00CD507B /* WindmillView.swift */,
+			);
+			path = Windmill;
+			sourceTree = "<group>";
+		};
+		1F32CC862587201A00CD507B /* Weebly */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CCB22587210400CD507B /* WeeblyButton.swift */,
+				1F32CCB32587210400CD507B /* WeeblyTimeline.swift */,
+				1F32CCB42587210400CD507B /* WeeblyView.swift */,
+			);
+			path = Weebly;
+			sourceTree = "<group>";
+		};
+		1F32CC872587202700CD507B /* Transitive */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CCAB258720F300CD507B /* TransitiveButton.swift */,
+				1F32CCAD258720F300CD507B /* TransitiveTimeline.swift */,
+				1F32CCAC258720F300CD507B /* TransitiveView.swift */,
+			);
+			path = Transitive;
+			sourceTree = "<group>";
+		};
+		1F32CC882587203000CD507B /* Tracer */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CCA6258720E100CD507B /* TracerButton.swift */,
+				1F32CCC42587229500CD507B /* TracerTimeline.swift */,
+				1F32CCA5258720E100CD507B /* TracerView.swift */,
+			);
+			path = Tracer;
+			sourceTree = "<group>";
+		};
+		1F32CC892587203700CD507B /* Tick */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC9E258720CF00CD507B /* TickButton.swift */,
+				1F32CC9F258720CF00CD507B /* TickTimeline.swift */,
+				1F32CC9D258720CF00CD507B /* TickView.swift */,
+			);
+			path = Tick;
+			sourceTree = "<group>";
+		};
+		1F32CC8A2587203D00CD507B /* Starburst */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC95258720B100CD507B /* StarburstButton.swift */,
+				1F32CC94258720B100CD507B /* StarburstTimeline.swift */,
+				1F32CC9A258720BE00CD507B /* StarburstReverseTimeline.swift */,
+				1F32CC93258720B100CD507B /* StarburstView.swift */,
+			);
+			path = Starburst;
+			sourceTree = "<group>";
+		};
+		1F32CC8B2587204700CD507B /* Slices */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CC8E2587205300CD507B /* SlicesButton.swift */,
+				1F32CC8C2587205300CD507B /* SlicesTimeline.swift */,
+				1F32CC8D2587205300CD507B /* SlicesView.swift */,
+			);
+			path = Slices;
+			sourceTree = "<group>";
+		};
 		FlowCommon_Group /* FlowCommon */ = {
 			isa = PBXGroup;
 			children = (
@@ -476,14 +763,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F32CC4525870AE500CD507B /* PrimeView.swift in Sources */,
+				1F32CC2B2587075C00CD507B /* LovelyReverseTimeline.swift in Sources */,
+				1F32CC96258720B100CD507B /* StarburstView.swift in Sources */,
+				1F32CC1F258706F400CD507B /* OvertTimeline.swift in Sources */,
 				1F32CB9D2586CBCC00CD507B /* AllinoneView.swift in Sources */,
 				1F32CBC72586CF0D00CD507B /* BurstView.swift in Sources */,
 				1F32CBD42586CF4F00CD507B /* DashingView.swift in Sources */,
 				LaunchAnimationView_swift_BuildFile /* LaunchAnimationView.swift in Sources */,
 				1F32CBCD2586CF4000CD507B /* CheckInButton.swift in Sources */,
+				1F32CC6125870CE000CD507B /* PrimeTimeline.swift in Sources */,
+				1F32CC8F2587205300CD507B /* SlicesTimeline.swift in Sources */,
+				1F32CC18258706DC00CD507B /* MondoButton.swift in Sources */,
 				1F32CBDF2586D6A900CD507B /* DidotTimeline.swift in Sources */,
 				LaunchAnimationViewController_swift_BuildFile /* LaunchAnimationViewController.swift in Sources */,
 				1F32CBD32586CF4F00CD507B /* DashingTimeline.swift in Sources */,
+				1F32CCC52587229500CD507B /* TracerTimeline.swift in Sources */,
 				1F32CBE12586D6A900CD507B /* DidotView.swift in Sources */,
 				1F32CBEE2586D76800CD507B /* FluidView.swift in Sources */,
 				LaunchAnimationTimeline_swift_BuildFile /* LaunchAnimationTimeline.swift in Sources */,
@@ -491,55 +786,100 @@
 				AppDelegate_swift_BuildFile /* AppDelegate.swift in Sources */,
 				ToggleButton_swift_BuildFile /* ToggleButton.swift in Sources */,
 				1F32CBE72586D74100CD507B /* DisguiseButton.swift in Sources */,
+				1F32CCA2258720CF00CD507B /* TickTimeline.swift in Sources */,
+				1F32CC1A258706DC00CD507B /* MondoView.swift in Sources */,
 				1F32CBFB2586D78E00CD507B /* GuessHowTimeline.swift in Sources */,
+				1F32CCC12587212A00CD507B /* WindmillReverseTimeline.swift in Sources */,
 				1F32CBAC2586CD2300CD507B /* AmbianceReverseTimeline.swift in Sources */,
 				CGPath_SVG_swift_BuildFile /* CGPath+SVG.swift in Sources */,
 				ShapeView_swift_BuildFile /* ShapeView.swift in Sources */,
+				1F32CC97258720B100CD507B /* StarburstTimeline.swift in Sources */,
 				1F32CBF42586D77900CD507B /* GrownTimeline.swift in Sources */,
 				Animation_swift_BuildFile /* Animation.swift in Sources */,
 				UIView_Extension_swift_BuildFile /* UIView+Extension.swift in Sources */,
 				UIImage_Extension_swift_BuildFile /* UIImage+Extension.swift in Sources */,
+				1F32CCB52587210400CD507B /* WeeblyButton.swift in Sources */,
 				1F32CBC52586CF0D00CD507B /* BurstButton.swift in Sources */,
+				1F32CC21258706F400CD507B /* OvertView.swift in Sources */,
+				1F32CC5225870B3200CD507B /* SimpletonView.swift in Sources */,
+				1F32CCBE2587211A00CD507B /* WindmillTimeline.swift in Sources */,
 				1F32CBE62586D74100CD507B /* DisguiseView.swift in Sources */,
 				1F32CBFD2586D78E00CD507B /* GuessHowButton.swift in Sources */,
+				1F32CCB62587210400CD507B /* WeeblyTimeline.swift in Sources */,
+				1F32CCAE258720F300CD507B /* TransitiveButton.swift in Sources */,
 				Timeline_swift_BuildFile /* Timeline.swift in Sources */,
+				1F32CC11258706C200CD507B /* LovelyButton.swift in Sources */,
 				1F32CBC02586CED000CD507B /* BoxedTimeline.swift in Sources */,
+				1F32CCBC2587211A00CD507B /* WindmillButton.swift in Sources */,
+				1F32CC3D25870AD200CD507B /* PopView.swift in Sources */,
 				1F32CBBE2586CED000CD507B /* BoxedView.swift in Sources */,
+				1F32CCA1258720CF00CD507B /* TickButton.swift in Sources */,
 				1F32CB9B2586CBCC00CD507B /* AllinoneTimeline.swift in Sources */,
+				1F32CC0C258705EE00CD507B /* LayersTimeline.swift in Sources */,
 				1F32CBB72586CEBD00CD507B /* BounceTimeline.swift in Sources */,
+				1F32CC20258706F400CD507B /* OvertButton.swift in Sources */,
 				1F32CADB258478BB00CD507B /* AffirmView.swift in Sources */,
 				1F32CBEF2586D76800CD507B /* FluidButton.swift in Sources */,
+				1F32CC98258720B100CD507B /* StarburstButton.swift in Sources */,
 				1F32CBE02586D6A900CD507B /* DidotButton.swift in Sources */,
+				1F32CC0B258705EE00CD507B /* LayersButton.swift in Sources */,
+				1F32CCA9258720E100CD507B /* TracerButton.swift in Sources */,
+				1F32CC912587205300CD507B /* SlicesButton.swift in Sources */,
+				1F32CCBD2587211A00CD507B /* WindmillView.swift in Sources */,
 				1F32CBC62586CF0D00CD507B /* BurstTimeline.swift in Sources */,
+				1F32CC19258706DC00CD507B /* MondoTimeline.swift in Sources */,
 				1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */,
 				CAKeyframeAnimation_Extension_swift_BuildFile /* CAKeyframeAnimation+Extension.swift in Sources */,
 				1F32CBB82586CEBD00CD507B /* BounceView.swift in Sources */,
 				1F32CBCC2586CF4000CD507B /* CheckInTimeline.swift in Sources */,
+				1F32CCB0258720F300CD507B /* TransitiveTimeline.swift in Sources */,
+				1F32CC262587070A00CD507B /* PartitionButton.swift in Sources */,
+				1F32CCA0258720CF00CD507B /* TickView.swift in Sources */,
 				1F32CADA258478BB00CD507B /* AffirmTimeline.swift in Sources */,
+				1F32CCA8258720E100CD507B /* TracerView.swift in Sources */,
+				1F32CC5D25870C5300CD507B /* PopReverseTimeline.swift in Sources */,
 				NSMutableParagraphStyle_Extension_swift_BuildFile /* NSMutableParagraphStyle+Extension.swift in Sources */,
 				CATransaction_Extension_swift_BuildFile /* CATransaction+Extension.swift in Sources */,
+				1F32CC13258706C200CD507B /* LovelyMaskedView.swift in Sources */,
 				1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */,
 				1F32CB9C2586CBCC00CD507B /* AllinoneButton.swift in Sources */,
 				1F32CADC258478BB00CD507B /* AffirmButton.swift in Sources */,
 				1F32CBBF2586CED000CD507B /* BoxedButton.swift in Sources */,
+				1F32CCB72587210400CD507B /* WeeblyView.swift in Sources */,
 				TextView_swift_BuildFile /* TextView.swift in Sources */,
 				Sound_swift_BuildFile /* Sound.swift in Sources */,
 				1F32CACE2584633500CD507B /* AbbaciTimeline.swift in Sources */,
+				1F32CC3525870A9E00CD507B /* PinkieButton.swift in Sources */,
+				1F32CC3725870A9E00CD507B /* PinkieTimeline.swift in Sources */,
+				1F32CC5325870B3200CD507B /* SimpletonButton.swift in Sources */,
 				1F32CBD52586CF4F00CD507B /* DashingButton.swift in Sources */,
 				CAMediaTimingFunction_Extension_swift_BuildFile /* CAMediaTimingFunction+Extension.swift in Sources */,
+				1F32CCAF258720F300CD507B /* TransitiveView.swift in Sources */,
 				1F32CBE82586D74100CD507B /* DisguiseTimeline.swift in Sources */,
+				1F32CC3625870A9E00CD507B /* PinkieView.swift in Sources */,
+				1F32CC3C25870AD200CD507B /* PopButton.swift in Sources */,
+				1F32CC3E25870AD200CD507B /* PopTimeline.swift in Sources */,
+				1F32CC12258706C200CD507B /* LovelyTimeline.swift in Sources */,
 				1F32CBB92586CEBD00CD507B /* BounceButton.swift in Sources */,
+				1F32CC9B258720BE00CD507B /* StarburstReverseTimeline.swift in Sources */,
 				1F32CBCE2586CF4000CD507B /* CheckInView.swift in Sources */,
 				1F32CBA82586CD1200CD507B /* AmbianceView.swift in Sources */,
+				1F32CC282587070A00CD507B /* PartitionView.swift in Sources */,
 				NSShadow_Extension_swift_BuildFile /* NSShadow+Extension.swift in Sources */,
 				1F32CBA72586CD1200CD507B /* AmbianceButton.swift in Sources */,
+				1F32CC6C258719F200CD507B /* SimpletonTimeline.swift in Sources */,
+				1F32CC4325870AE500CD507B /* PrimeButton.swift in Sources */,
 				1F32CBF62586D77900CD507B /* GrownButton.swift in Sources */,
 				1F32CAD12584636600CD507B /* AbbaciButton.swift in Sources */,
+				1F32CC7325871A6100CD507B /* SimpletonReverseTimeline.swift in Sources */,
 				1F32CBA92586CD1200CD507B /* AmbianceTimeline.swift in Sources */,
+				1F32CC0A258705EE00CD507B /* LayersView.swift in Sources */,
+				1F32CC902587205300CD507B /* SlicesView.swift in Sources */,
 				1F32CBF52586D77900CD507B /* GrownView.swift in Sources */,
 				ViewController_swift_BuildFile /* ViewController.swift in Sources */,
 				1F32CBFC2586D78E00CD507B /* GuessHowView.swift in Sources */,
 				1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */,
+				1F32CC272587070A00CD507B /* PartitionTimeline.swift in Sources */,
 				1F32CACD2584633500CD507B /* AbbaciView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

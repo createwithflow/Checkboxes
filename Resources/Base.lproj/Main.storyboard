@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58C80476-F56D-4032-82D3-935BADF876F0" customClass="GuessHowButton" customModule="Checkboxes" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58C80476-F56D-4032-82D3-935BADF876F0" customClass="WindmillButton" customModule="Checkboxes" customModuleProvider="target">
                                 <rect key="frame" x="171.5" y="317.5" width="32" height="32"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
