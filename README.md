@@ -72,13 +72,22 @@ For now, please download and install manually.
 1. Download the project.
 2. Install FlowCommon into your project (copy the files in this repo, or install via [FlowCommoniOS](https://github.com/createwithflow/FlowCommoniOS)).
 3. Copy `ToggleButton.flow`
-4. For each checkbox your want to use, copy three files into your project. For example, to use the Abbaci checkbox you would copy these files:
+4. For each checkbox your want to use, copy three files into your project:
 
 ```
-<Animation>AbbaciButton.swift
-<Animation>AbbaciTimeline.swift
-<Animation>AbbaciView.swift
+<Animation>Button.swift
+<Animation>Timeline.swift
+<Animation>View.swift
 ```
+
+For example, to use the Abbaci checkbox you would copy these files:
+
+```
+AbbaciButton.swift
+AbbaciTimeline.swift
+AbbaciView.swift
+```
+
 
 # Types & Shots
 We love Dribbble and a lot of the animations in this project were originally inspired by other people's great work, which we riffed on and added our own flair and rebounded with links to the original post and designer. Each checkbox is posted to [Flow's Official Dribbble Account](https://dribbble.com/createwithflow), and in the writeup for each shot we've referenced the original, and the maker. 
