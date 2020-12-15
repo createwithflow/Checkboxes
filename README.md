@@ -1,7 +1,7 @@
-<img src="https://github.com/createwithflow/ActivityIndicatorView/blob/main/Assets/flow-logo%402x.png" width="120" />
+<img src="https://github.com/createwithflow/Checkboxes/blob/main/Assets/flow-logo%402x.png" width="120" />
 
 # Checkboxes
-<img align="right" src="https://github.com/createwithflow/ActivityIndicatorView/blob/main/Assets/demo.gif" width="320" />
+<img align="right" src="https://github.com/createwithflow/Checkboxes/blob/master/Assets/checkBoxesAll32Portrait.gif" width="320" />
 
 #### A set of 32 awesome checkbox buttons, <u>FREE to use.</u><br />
 #### Written in pure Swift, using Core Animation.<br />
