@@ -43,7 +43,7 @@ public enum CheckboxType: CaseIterable {
     case zombo
 }
 
-public class ActivityIndicators {
+public class Checkboxes {
     class func create(_ type: CheckboxType) -> ToggleButton? {
         let frame = CGRect(x: 0, y: 0, width: 32, height: 32)
         var checkbox: ToggleButton?
