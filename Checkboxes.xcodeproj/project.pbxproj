@@ -27,8 +27,6 @@
 		1F32CBBF2586CED000CD507B /* BoxedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBBC2586CED000CD507B /* BoxedButton.swift */; };
 		1F32CBC02586CED000CD507B /* BoxedTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBBD2586CED000CD507B /* BoxedTimeline.swift */; };
 		1F32CBC52586CF0D00CD507B /* BurstButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC22586CF0D00CD507B /* BurstButton.swift */; };
-		1F32CBC62586CF0D00CD507B /* BurstTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC32586CF0D00CD507B /* BurstTimeline.swift */; };
-		1F32CBC72586CF0D00CD507B /* BurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC42586CF0D00CD507B /* BurstView.swift */; };
 		1F32CBCC2586CF4000CD507B /* CheckInTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBC92586CF4000CD507B /* CheckInTimeline.swift */; };
 		1F32CBCD2586CF4000CD507B /* CheckInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBCA2586CF4000CD507B /* CheckInButton.swift */; };
 		1F32CBCE2586CF4000CD507B /* CheckInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CBCB2586CF4000CD507B /* CheckInView.swift */; };
@@ -103,6 +101,13 @@
 		1F32CCBE2587211A00CD507B /* WindmillTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCBB2587211A00CD507B /* WindmillTimeline.swift */; };
 		1F32CCC12587212A00CD507B /* WindmillReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCC02587212A00CD507B /* WindmillReverseTimeline.swift */; };
 		1F32CCC52587229500CD507B /* TracerTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCC42587229500CD507B /* TracerTimeline.swift */; };
+		1F32CCCC25880ECB00CD507B /* BurstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCCA25880ECB00CD507B /* BurstView.swift */; };
+		1F32CCD12588150C00CD507B /* ZomboView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCCE2588150C00CD507B /* ZomboView.swift */; };
+		1F32CCD32588150C00CD507B /* ZomboTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCD02588150C00CD507B /* ZomboTimeline.swift */; };
+		1F32CCD92588180900CD507B /* ZomboButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCCF2588150C00CD507B /* ZomboButton.swift */; };
+		1F32CCE22588212F00CD507B /* BurstTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCE12588212F00CD507B /* BurstTimeline.swift */; };
+		1F32CCE52588213500CD507B /* BurstReverseTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCE42588213500CD507B /* BurstReverseTimeline.swift */; };
+		1F32CCE92588313800CD507B /* Checkboxes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F32CCE82588313800CD507B /* Checkboxes.swift */; };
 		1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87205258481AD00B5B28C /* AlarmTimeline.swift */; };
 		1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87206258481AD00B5B28C /* AlarmView.swift */; };
 		1FD8720A258481AD00B5B28C /* AlarmButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87207258481AD00B5B28C /* AlarmButton.swift */; };
@@ -151,8 +156,6 @@
 		1F32CBBC2586CED000CD507B /* BoxedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxedButton.swift; sourceTree = "<group>"; };
 		1F32CBBD2586CED000CD507B /* BoxedTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoxedTimeline.swift; sourceTree = "<group>"; };
 		1F32CBC22586CF0D00CD507B /* BurstButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstButton.swift; sourceTree = "<group>"; };
-		1F32CBC32586CF0D00CD507B /* BurstTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstTimeline.swift; sourceTree = "<group>"; };
-		1F32CBC42586CF0D00CD507B /* BurstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstView.swift; sourceTree = "<group>"; };
 		1F32CBC92586CF4000CD507B /* CheckInTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInTimeline.swift; sourceTree = "<group>"; };
 		1F32CBCA2586CF4000CD507B /* CheckInButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInButton.swift; sourceTree = "<group>"; };
 		1F32CBCB2586CF4000CD507B /* CheckInView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckInView.swift; sourceTree = "<group>"; };
@@ -227,6 +230,13 @@
 		1F32CCBB2587211A00CD507B /* WindmillTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindmillTimeline.swift; sourceTree = "<group>"; };
 		1F32CCC02587212A00CD507B /* WindmillReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindmillReverseTimeline.swift; sourceTree = "<group>"; };
 		1F32CCC42587229500CD507B /* TracerTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TracerTimeline.swift; sourceTree = "<group>"; };
+		1F32CCCA25880ECB00CD507B /* BurstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstView.swift; sourceTree = "<group>"; };
+		1F32CCCE2588150C00CD507B /* ZomboView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZomboView.swift; sourceTree = "<group>"; };
+		1F32CCCF2588150C00CD507B /* ZomboButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZomboButton.swift; sourceTree = "<group>"; };
+		1F32CCD02588150C00CD507B /* ZomboTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZomboTimeline.swift; sourceTree = "<group>"; };
+		1F32CCE12588212F00CD507B /* BurstTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstTimeline.swift; sourceTree = "<group>"; };
+		1F32CCE42588213500CD507B /* BurstReverseTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BurstReverseTimeline.swift; sourceTree = "<group>"; };
+		1F32CCE82588313800CD507B /* Checkboxes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkboxes.swift; sourceTree = "<group>"; };
 		1FD87205258481AD00B5B28C /* AlarmTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTimeline.swift; sourceTree = "<group>"; };
 		1FD87206258481AD00B5B28C /* AlarmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		1FD87207258481AD00B5B28C /* AlarmButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmButton.swift; sourceTree = "<group>"; };
@@ -311,6 +321,7 @@
 				1F32CC872587202700CD507B /* Transitive */,
 				1F32CC862587201A00CD507B /* Weebly */,
 				1F32CC852587200D00CD507B /* Windmill */,
+				1F32CCD52588151500CD507B /* Zombo */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -380,8 +391,9 @@
 			isa = PBXGroup;
 			children = (
 				1F32CBC22586CF0D00CD507B /* BurstButton.swift */,
-				1F32CBC32586CF0D00CD507B /* BurstTimeline.swift */,
-				1F32CBC42586CF0D00CD507B /* BurstView.swift */,
+				1F32CCE12588212F00CD507B /* BurstTimeline.swift */,
+				1F32CCE42588213500CD507B /* BurstReverseTimeline.swift */,
+				1F32CCCA25880ECB00CD507B /* BurstView.swift */,
 			);
 			path = Burst;
 			sourceTree = "<group>";
@@ -621,6 +633,16 @@
 			path = Slices;
 			sourceTree = "<group>";
 		};
+		1F32CCD52588151500CD507B /* Zombo */ = {
+			isa = PBXGroup;
+			children = (
+				1F32CCCF2588150C00CD507B /* ZomboButton.swift */,
+				1F32CCD02588150C00CD507B /* ZomboTimeline.swift */,
+				1F32CCCE2588150C00CD507B /* ZomboView.swift */,
+			);
+			path = Zombo;
+			sourceTree = "<group>";
+		};
 		FlowCommon_Group /* FlowCommon */ = {
 			isa = PBXGroup;
 			children = (
@@ -686,6 +708,7 @@
 				AppDelegate_swift_FileReference /* AppDelegate.swift */,
 				ToggleButton_swift_FileReference /* ToggleButton.swift */,
 				ViewController_swift_FileReference /* ViewController.swift */,
+				1F32CCE82588313800CD507B /* Checkboxes.swift */,
 				1F32CACA2584632100CD507B /* Animations */,
 				FlowCommon_Group /* FlowCommon */,
 				LaunchAnimation_Group /* LaunchAnimation */,
@@ -723,6 +746,7 @@
 				ORGANIZATIONNAME = Flow;
 				TargetAttributes = {
 					checkboxes_Target = {
+						DevelopmentTeam = 75C7KVJZ99;
 						LastSwiftMigration = 1020;
 					};
 				};
@@ -768,7 +792,6 @@
 				1F32CC96258720B100CD507B /* StarburstView.swift in Sources */,
 				1F32CC1F258706F400CD507B /* OvertTimeline.swift in Sources */,
 				1F32CB9D2586CBCC00CD507B /* AllinoneView.swift in Sources */,
-				1F32CBC72586CF0D00CD507B /* BurstView.swift in Sources */,
 				1F32CBD42586CF4F00CD507B /* DashingView.swift in Sources */,
 				LaunchAnimationView_swift_BuildFile /* LaunchAnimationView.swift in Sources */,
 				1F32CBCD2586CF4000CD507B /* CheckInButton.swift in Sources */,
@@ -779,12 +802,15 @@
 				LaunchAnimationViewController_swift_BuildFile /* LaunchAnimationViewController.swift in Sources */,
 				1F32CBD32586CF4F00CD507B /* DashingTimeline.swift in Sources */,
 				1F32CCC52587229500CD507B /* TracerTimeline.swift in Sources */,
+				1F32CCCC25880ECB00CD507B /* BurstView.swift in Sources */,
+				1F32CCD12588150C00CD507B /* ZomboView.swift in Sources */,
 				1F32CBE12586D6A900CD507B /* DidotView.swift in Sources */,
 				1F32CBEE2586D76800CD507B /* FluidView.swift in Sources */,
 				LaunchAnimationTimeline_swift_BuildFile /* LaunchAnimationTimeline.swift in Sources */,
 				1F32CBED2586D76800CD507B /* FluidTimeline.swift in Sources */,
 				AppDelegate_swift_BuildFile /* AppDelegate.swift in Sources */,
 				ToggleButton_swift_BuildFile /* ToggleButton.swift in Sources */,
+				1F32CCD32588150C00CD507B /* ZomboTimeline.swift in Sources */,
 				1F32CBE72586D74100CD507B /* DisguiseButton.swift in Sources */,
 				1F32CCA2258720CF00CD507B /* TickTimeline.swift in Sources */,
 				1F32CC1A258706DC00CD507B /* MondoView.swift in Sources */,
@@ -802,6 +828,7 @@
 				1F32CBC52586CF0D00CD507B /* BurstButton.swift in Sources */,
 				1F32CC21258706F400CD507B /* OvertView.swift in Sources */,
 				1F32CC5225870B3200CD507B /* SimpletonView.swift in Sources */,
+				1F32CCE22588212F00CD507B /* BurstTimeline.swift in Sources */,
 				1F32CCBE2587211A00CD507B /* WindmillTimeline.swift in Sources */,
 				1F32CBE62586D74100CD507B /* DisguiseView.swift in Sources */,
 				1F32CBFD2586D78E00CD507B /* GuessHowButton.swift in Sources */,
@@ -826,7 +853,6 @@
 				1F32CCA9258720E100CD507B /* TracerButton.swift in Sources */,
 				1F32CC912587205300CD507B /* SlicesButton.swift in Sources */,
 				1F32CCBD2587211A00CD507B /* WindmillView.swift in Sources */,
-				1F32CBC62586CF0D00CD507B /* BurstTimeline.swift in Sources */,
 				1F32CC19258706DC00CD507B /* MondoTimeline.swift in Sources */,
 				1FD87208258481AD00B5B28C /* AlarmTimeline.swift in Sources */,
 				CAKeyframeAnimation_Extension_swift_BuildFile /* CAKeyframeAnimation+Extension.swift in Sources */,
@@ -859,6 +885,7 @@
 				1F32CC3625870A9E00CD507B /* PinkieView.swift in Sources */,
 				1F32CC3C25870AD200CD507B /* PopButton.swift in Sources */,
 				1F32CC3E25870AD200CD507B /* PopTimeline.swift in Sources */,
+				1F32CCE52588213500CD507B /* BurstReverseTimeline.swift in Sources */,
 				1F32CC12258706C200CD507B /* LovelyTimeline.swift in Sources */,
 				1F32CBB92586CEBD00CD507B /* BounceButton.swift in Sources */,
 				1F32CC9B258720BE00CD507B /* StarburstReverseTimeline.swift in Sources */,
@@ -873,12 +900,14 @@
 				1F32CAD12584636600CD507B /* AbbaciButton.swift in Sources */,
 				1F32CC7325871A6100CD507B /* SimpletonReverseTimeline.swift in Sources */,
 				1F32CBA92586CD1200CD507B /* AmbianceTimeline.swift in Sources */,
+				1F32CCE92588313800CD507B /* Checkboxes.swift in Sources */,
 				1F32CC0A258705EE00CD507B /* LayersView.swift in Sources */,
 				1F32CC902587205300CD507B /* SlicesView.swift in Sources */,
 				1F32CBF52586D77900CD507B /* GrownView.swift in Sources */,
 				ViewController_swift_BuildFile /* ViewController.swift in Sources */,
 				1F32CBFC2586D78E00CD507B /* GuessHowView.swift in Sources */,
 				1FD87209258481AD00B5B28C /* AlarmView.swift in Sources */,
+				1F32CCD92588180900CD507B /* ZomboButton.swift in Sources */,
 				1F32CC272587070A00CD507B /* PartitionTimeline.swift in Sources */,
 				1F32CACD2584633500CD507B /* AbbaciView.swift in Sources */,
 			);
@@ -992,6 +1021,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = 75C7KVJZ99;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Flow.Checkboxes.CheckboxesTimeline;
@@ -1005,6 +1035,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = YES;
+				DEVELOPMENT_TEAM = 75C7KVJZ99;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Flow.Checkboxes.CheckboxesTimeline;
