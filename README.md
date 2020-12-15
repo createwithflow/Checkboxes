@@ -8,7 +8,7 @@
 #### Made with [Flow](https://createwithflow.com/?utm_source=github&utm_medium=checkboxes).<br />
 
 # Story
-**We created and shipped all 32 of these animations in two days**. We drew on inspirations from Dribbble, most designs were created in Figma. All code was exported using the `iOS Toggle Button` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=checkboxes).
+**We created and shipped all 32 of these animations in two days**. We drew on inspirations from Dribbble, all designs were created in Figma > [here's the file](https://www.figma.com/file/SIGnizFPmXI1dYS7A5jdKr/CheckBoxes). All code was exported using the `iOS Toggle Button` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=checkboxes).
 
 Check back soon for our blog post about the process.
 
@@ -22,25 +22,25 @@ CheckInButton(frame: frame)
 You can also use our convience class, like so:
 
 ```
-Checkboxes.create(.griddy) f
+Checkboxes.create(.checkin)
 ```
 
 # Structure
-We offer a common, basic subclass of `UIActivityIndicatorView`.
+We offer a common, basic subclass of `UIButton`.
 
 ```
-ActivityIndicatorView: UIActivityIndicatorView {
+ToggleButton: UIButton {
   ...
 }
 ```
 
-This basic handles the construction of the activity view, provides the space for common styling additions, and syncs playback with native activity indicator methods.
+This basic subclass handles the construction of the button, provides the space for common styling additions, and syncs playback of one or more timeliens with native UIButton methods.
 
 ## Custom Subclasses
-Each indicator is a subclass of `ActivityIndicatorView`.
+Each button is a subclass of `ToggleButton`.
 
 ```
-GriddyActivityIndicatorView: ActivityIndicatorView {
+CheckInButton: ToggleButton {
   ...
 }
 ```
@@ -83,59 +83,8 @@ For now, please download and install manually.
 # Types & Shots
 We love Dribbble and a lot of the animations in this project were originally inspired by other people's great work, which we riffed on and added our own flair and rebounded with links to the original post and designer. Each indicator is posted to [Flow's Official Dribbble Account](https://dribbble.com/createwithflow), and in the writeup for each shot we've referenced the original, and the maker. 
 
-Over the next 25 days we're posting all 50 animations / indicators and will add a link below as the shots go live.
-
-Below is the list of all 50, and the names are identical to the `enum` cases in the project.
+Below is the list of all 32, and the names are identical to the `enum` cases in the project.
 
 | type name | shot |
 |---|---|
-| `barista` |  |
-| `breathe` |  |
-| `caught` | [Caught](https://dribbble.com/shots/14442888-Caught) |
-| `charting` |  |
-| `compass` |  |
-| `cradle` | [Cradle](https://dribbble.com/shots/14433554-Cradle) |
-| `dashed` | [Dashed](https://dribbble.com/shots/14433633-Dashed) |
-| `deceptive` |  |
-| `dialed` |  |
-| `differences` | [Differences](https://dribbble.com/shots/14442910-Differences) |
-| `dottingAroundCircle` | [Dotting Around - Circle](https://dribbble.com/shots/14418568-Dotting-Around-Circle) |
-| `dottingAroundSquare` | [Dotting Around - Square](https://dribbble.com/shots/14418857-Dotting-Around-Square) |
-| `dottingAroundTriangle` | [Dotting Around - Triangle](https://dribbble.com/shots/14419096-Dotting-Around-Triangle) |
-| `doubleTime` |  |
-| `fire` |  |
-| `flowWheel` | [Flow Wheel](https://dribbble.com/shots/14442597-FlowWheel) |
-| `gradientRing` |  |
-| `griddy` |  |
-| `gridlock` | [Gridlock](https://dribbble.com/shots/14442786-Gridlock) |
-| `hal` | [Hal](https://dribbble.com/shots/14446216-Hal) |
-| `hexa` |  |
-| `hicks` |  |
-| `infinity` | [Infinity](https://dribbble.com/shots/14446324-Infinity) |
-| `magician` |  |
-| `mountains` | [Mountains](https://dribbble.com/shots/14442693-Mountains) |
-| `moveAlong` |  |
-| `nonover` | [Nonover](https://dribbble.com/shots/14426280-Nonover) |
-| `overlapping` | [Overlapping](https://dribbble.com/shots/14426206-Overlapping) |
-| `penta` | [Penta](https://dribbble.com/shots/14442760-Penta) |
-| `quarbit` | [Quarbit](https://dribbble.com/shots/14446292-Quarbit) |
-| `queued` | [Queued](https://dribbble.com/shots/14446172-Queued) |
-| `rainbow` | [Rainbow](https://dribbble.com/shots/14446305-Rainbow) |
-| `reflect` | [Reflect](https://dribbble.com/shots/14442962-Reflect) |
-| `ripley` | [Ripley](https://dribbble.com/shots/14442939-Ripley) |
-| `ringItIn` |  |
-| `roulette` |  |
-| `shiftDrift` | [Shift'n'Drift](https://dribbble.com/shots/14442650-Shift-n-Drift) |
-| `shkwv` | [Shkwv](https://dribbble.com/shots/14446254-Shkwv) |
-| `showingUp` |  |
-| `skeu` | [Skeu](https://dribbble.com/shots/14446891-Skeu) |
-| `spinUp` | [Spin Up](https://dribbble.com/shots/14433455-Spin-Up) |
-| `spindle` | [Spindle](https://dribbble.com/shots/14442720-Spindle) |
-| `spinning` | [Spinning](https://dribbble.com/shots/14446235-Spinning) |
-| `splayed` |  |
-| `standby` |  |
-| `stretchAround` | [Stretch Around](https://dribbble.com/shots/14419134-Stretch-Around) |
-| `squareUp` | [Shape Up](https://dribbble.com/shots/14433531-Shape-Up) |
-| `triplex` |  |
-| `tumble` |  |
-| `xact` |  |
+| `` | []() |
