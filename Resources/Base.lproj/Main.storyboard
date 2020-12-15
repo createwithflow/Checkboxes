@@ -19,11 +19,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="YRe-xT-r0u">
-                                <rect key="frame" x="221.5" y="-52.5" width="224" height="480"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="YRe-xT-r0u">
+                                <rect key="frame" x="93.5" y="75.5" width="480" height="224"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="csw-wq-fLd">
-                                        <rect key="frame" x="0.0" y="0.0" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="csw-wq-fLd">
+                                        <rect key="frame" x="0.0" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="58C80476-F56D-4032-82D3-935BADF876F0" customClass="AbbaciButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -34,7 +34,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upx-aR-SYm" customClass="AffirmButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="1x7-jL-9g7"/>
@@ -42,15 +42,15 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WKd-da-kst" customClass="AlarmButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="CKe-VS-9Jx"/>
                                                     <constraint firstAttribute="height" constant="32" id="Ejz-n4-GVV"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d8h-84-Uek" customClass="AllinoneButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="T5Z-pi-Hg1"/>
@@ -59,8 +59,8 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="1mY-Tf-dKX">
-                                        <rect key="frame" x="0.0" y="64" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="1mY-Tf-dKX">
+                                        <rect key="frame" x="64" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xTt-j2-zfr" customClass="AmbianceButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -71,7 +71,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dE-rZ-AfV" customClass="BounceButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="9Hk-z7-EJj"/>
@@ -79,7 +79,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hBx-iv-uag" customClass="BoxedButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="JIg-Wa-dFC"/>
@@ -87,7 +87,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uWN-iH-2i2" customClass="BurstButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="39t-DF-HZg"/>
@@ -96,8 +96,8 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="ez5-9P-VoO">
-                                        <rect key="frame" x="0.0" y="128" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="ez5-9P-VoO">
+                                        <rect key="frame" x="128" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oci-f2-LWw" customClass="CheckInButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -108,7 +108,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="275-S9-gfX" customClass="DashingButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="QFA-g5-ePB"/>
@@ -116,7 +116,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gSK-sw-8Ed" customClass="DidotButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="2vt-W3-uU7"/>
@@ -124,7 +124,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpX-uk-a6H" customClass="DisguiseButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="9Sl-tn-yoP"/>
@@ -133,8 +133,8 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="GXh-Ob-zXG">
-                                        <rect key="frame" x="0.0" y="192" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="GXh-Ob-zXG">
+                                        <rect key="frame" x="192" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L08-KL-J58" customClass="FluidButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -145,7 +145,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mfx-7L-53b" customClass="GrownButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="2Sh-L5-b4F"/>
@@ -153,7 +153,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XL6-qD-bSJ" customClass="GuessHowButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="2YZ-oD-WPR"/>
@@ -161,7 +161,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MbY-zq-236" customClass="LayersButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="PAx-rP-KZ6"/>
@@ -170,8 +170,8 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="J5Q-YS-tRE">
-                                        <rect key="frame" x="0.0" y="256" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="J5Q-YS-tRE">
+                                        <rect key="frame" x="256" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPx-nC-Uuw" customClass="LovelyButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -182,7 +182,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xU3-bE-Ns4" customClass="MondoButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="7gK-rc-fVs"/>
@@ -190,7 +190,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XQR-GB-AVH" customClass="OvertButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="4OZ-Io-vB2"/>
@@ -198,7 +198,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T81-7U-6Wp" customClass="PartitionButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="YD5-m9-riB"/>
@@ -207,8 +207,8 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="kis-qx-ytO">
-                                        <rect key="frame" x="0.0" y="320" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="kis-qx-ytO">
+                                        <rect key="frame" x="320" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NcA-PC-te7" customClass="PinkieButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -219,7 +219,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PC3-0Y-N7F" customClass="PopButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="8GR-H6-ZhF"/>
@@ -227,7 +227,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LAL-xs-B3n" customClass="PrimeButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="TEB-MG-DaM"/>
@@ -235,7 +235,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NTu-Y4-jdx" customClass="SimpletonButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="25v-Ms-uBc"/>
@@ -244,8 +244,8 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="vne-yP-g4f">
-                                        <rect key="frame" x="0.0" y="384" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="vne-yP-g4f">
+                                        <rect key="frame" x="384" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g1S-w8-04u" customClass="SlicesButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -256,7 +256,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sid-Qh-eC3" customClass="StarburstButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="4iA-rL-SZ7"/>
@@ -264,7 +264,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I6D-fa-KwF" customClass="TickButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="FBh-eS-bEb"/>
@@ -272,7 +272,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lhx-kr-2u3" customClass="TracerButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="9jP-xq-zbA"/>
@@ -281,8 +281,8 @@
                                             </view>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="AV3-Gy-Xse">
-                                        <rect key="frame" x="0.0" y="448" width="224" height="32"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="AV3-Gy-Xse">
+                                        <rect key="frame" x="448" y="0.0" width="32" height="224"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m5Z-t2-vZ4" customClass="TransitiveButton" customModule="Checkboxes" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="0.0" width="32" height="32"/>
@@ -293,7 +293,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hd-km-aNY" customClass="WeeblyButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="64" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="64" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="9TT-Nw-bjk"/>
@@ -301,7 +301,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OIP-ni-lvs" customClass="WindmillButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="128" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="128" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="32" id="d13-Rl-qpv"/>
@@ -309,7 +309,7 @@
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u9E-bJ-IDW" customClass="ZomboButton" customModule="Checkboxes" customModuleProvider="target">
-                                                <rect key="frame" x="192" y="0.0" width="32" height="32"/>
+                                                <rect key="frame" x="0.0" y="192" width="32" height="32"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="32" id="9Yh-rC-9sb"/>
