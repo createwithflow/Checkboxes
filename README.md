@@ -1,4 +1,4 @@
-<img src="https://github.com/createwithflow/Checkboxes/blob/master/Assets/flow-logo%402x.png" width="120" />
+<a href="https://createwithflow.com/?utm_source=github&utm_medium=checkboxes"><img src="https://github.com/createwithflow/Checkboxes/blob/master/Assets/flow-logo%402x.png" width="120" /></a>
 
 # Checkboxes
 <img align="right" src="https://github.com/createwithflow/Checkboxes/blob/master/Assets/checkBoxesAll32Portrait.gif" width="320" />
