@@ -87,4 +87,35 @@ Below is the list of all 32, and the names are identical to the `enum` cases in 
 
 | type name | shot |
 |---|---|
-| `` | []() |
+| `abbaci` | []() |
+| `affirm` | []() |
+| `alarm` | []() |
+| `allinone` | []() |
+| `ambiance` | []() |
+| `bounce` | []() |
+| `boxed` | []() |
+| `burst` | []() |
+| `checkin` | []() |
+| `dashing` | []() |
+| `didot` | []() |
+| `disguise` | []() |
+| `fluid` | []() |
+| `grown` | []() |
+| `guesshow` | []() |
+| `layers` | []() |
+| `lovely` | []() |
+| `mondo` | []() |
+| `overt` | []() |
+| `partition` | []() |
+| `pinkie` | []() |
+| `pop` | []() |
+| `prime` | []() |
+| `simpleton` | []() |
+| `slices` | []() |
+| `starburst` | []() |
+| `tick` | []() |
+| `tracer` | []() |
+| `transitive` | []() |
+| `weebly` | []() |
+| `windmill` | []() |
+| `zombo` | []() |
