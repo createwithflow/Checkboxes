@@ -6,9 +6,9 @@
 import UIKit
 
 @IBDesignable
-class BurstButton: ToggleButton {
-    private lazy var burst: BurstView = {
-        let startView = BurstView(frame: .zero)
+class ZomboButton: ToggleButton {
+    private lazy var zombo: ZomboView = {
+        let startView = ZomboView(frame: .zero)
         startView.scale(to: frame.size)
         //Since we use scaling, the startView must not clip to bounds 
         startView.clipsToBounds = false
@@ -21,14 +21,14 @@ class BurstButton: ToggleButton {
     }()
 
     override var forward: Timeline? {
-        return BurstTimeline(view: burst, duration: 0.75)
+        return ZomboTimeline(view: zombo, duration: 0.5)
     }
 
     override var reverse: Timeline? {
-        return BurstReverseTimeline(view: burst, duration: 0.75)
+        return ZomboTimeline(view: zombo, duration: 0.5).reversed
     }
 
     override func createView() -> UIView {
-        return burst
+        return zombo
     }
 }

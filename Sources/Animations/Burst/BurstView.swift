@@ -16,7 +16,7 @@ public class BurstView: UIView {
     public var checkGroup: UIView!
     public var circleBackground: ShapeView!
     public var circleBackground_1: ShapeView!
-    public var circleBackground_2: ShapeView!
+    public var circleBackgroundMask: ShapeView!
     public var checkForeground: ShapeView!
     public var burst11: ShapeView!
     public var burst10: ShapeView!
@@ -76,7 +76,7 @@ public class BurstView: UIView {
             createCheckGroup()
             createCircleBackground()
             createCircleBackground1()
-            createCircleBackground2()
+            createCircleBackgroundMask()
             createCheckForeground()
             createBurst11()
             createBurst10()
@@ -125,7 +125,6 @@ public class BurstView: UIView {
         circleBackground = ShapeView(frame: CGRect(x: 29, y: 3, width: 26, height: 26))
         circleBackground.backgroundColor = UIColor.clear
         circleBackground.layer.anchorPoint = CGPoint(x: 0, y: 0)
-        circleBackground.alpha = 0
         circleBackground.transform = CGAffineTransform(rotationAngle: -1 * CGFloat.pi)
         circleBackground.transform = circleBackground.transform.scaledBy(x: 1, y: -1)
         circleBackground.layer.shadowOffset = CGSize(width: 0, height: 0)
@@ -164,27 +163,27 @@ public class BurstView: UIView {
         circleBackground_1.layer.mask = circleBackground_1Mask
     }
 
-    private func createCircleBackground2() {
-        circleBackground_2 = ShapeView(frame: CGRect(x: 0, y: 52, width: 26, height: 26))
-        circleBackground_2.backgroundColor = UIColor.clear
-        circleBackground_2.layer.anchorPoint = CGPoint(x: 0, y: 0)
-        circleBackground_2.transform = circleBackground_2.transform.scaledBy(x: 1, y: -1)
-        circleBackground_2.layer.shadowOffset = CGSize(width: 0, height: 0)
-        circleBackground_2.layer.borderColor = UIColor.clear.cgColor
-        circleBackground_2.layer.shadowColor = UIColor.clear.cgColor
-        circleBackground_2.layer.shadowOpacity = 1
-        circleBackground_2.layer.position = CGPoint(x: 0, y: 52)
-        circleBackground_2.layer.bounds = CGRect(x: 0, y: 0, width: 26, height: 26)
-        circleBackground_2.layer.masksToBounds = false
-        circleBackground_2.shapeLayer.fillRule = CAShapeLayerFillRule.evenOdd
-        circleBackground_2.shapeLayer.fillColor = UIColor(red: 0.992, green: 0.004, blue: 0.471, alpha: 1).cgColor
-        circleBackground_2.shapeLayer.lineCap = CAShapeLayerLineCap(rawValue: "round")
-        circleBackground_2.shapeLayer.lineJoin = CAShapeLayerLineJoin(rawValue: "round")
-        circleBackground_2.shapeLayer.miterLimit = 4
-        circleBackground_2.shapeLayer.lineDashPattern = []
-        circleBackground_2.shapeLayer.lineDashPhase = 0
-        circleBackground_2.shapeLayer.lineWidth = 0.25
-        circleBackground_2.shapeLayer.path = CGPathCreateWithSVGString("M13,26c7.15,0,13,-5.85,13,-13 0,-7.15,-5.85,-13,-13,-13 -7.15,0,-13,5.85,-13,13 0,7.15,5.85,13,13,13zM13,26")!
+    private func createCircleBackgroundMask() {
+        circleBackgroundMask = ShapeView(frame: CGRect(x: 0, y: 52, width: 26, height: 26))
+        circleBackgroundMask.backgroundColor = UIColor.clear
+        circleBackgroundMask.layer.anchorPoint = CGPoint(x: 0, y: 0)
+        circleBackgroundMask.transform = circleBackgroundMask.transform.scaledBy(x: 1, y: -1)
+        circleBackgroundMask.layer.shadowOffset = CGSize(width: 0, height: 0)
+        circleBackgroundMask.layer.borderColor = UIColor.clear.cgColor
+        circleBackgroundMask.layer.shadowColor = UIColor.clear.cgColor
+        circleBackgroundMask.layer.shadowOpacity = 1
+        circleBackgroundMask.layer.position = CGPoint(x: 0, y: 52)
+        circleBackgroundMask.layer.bounds = CGRect(x: 0, y: 0, width: 26, height: 26)
+        circleBackgroundMask.layer.masksToBounds = false
+        circleBackgroundMask.shapeLayer.fillRule = CAShapeLayerFillRule.evenOdd
+        circleBackgroundMask.shapeLayer.fillColor = UIColor(red: 0.992, green: 0.004, blue: 0.471, alpha: 1).cgColor
+        circleBackgroundMask.shapeLayer.lineCap = CAShapeLayerLineCap(rawValue: "round")
+        circleBackgroundMask.shapeLayer.lineJoin = CAShapeLayerLineJoin(rawValue: "round")
+        circleBackgroundMask.shapeLayer.miterLimit = 4
+        circleBackgroundMask.shapeLayer.lineDashPattern = []
+        circleBackgroundMask.shapeLayer.lineDashPhase = 0
+        circleBackgroundMask.shapeLayer.lineWidth = 0.25
+        circleBackgroundMask.shapeLayer.path = CGPathCreateWithSVGString("M13,26c7.15,0,13,-5.85,13,-13 0,-7.15,-5.85,-13,-13,-13 -7.15,0,-13,5.85,-13,13 0,7.15,5.85,13,13,13zM13,26")!
 
     }
 
@@ -508,7 +507,7 @@ public class BurstView: UIView {
         burstGroup.addSubview(burst2)
         burstGroup.addSubview(burst1)
         burstGroup.addSubview(burst0)
-        circleBackground_1.addSubview(circleBackground_2)
+        circleBackground_1.addSubview(circleBackgroundMask)
         circleBackground_1.addSubview(checkForeground)
         checkGroup.addSubview(circleBackground_1)
         addSubview(burstGroup)

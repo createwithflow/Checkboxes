@@ -14,6 +14,9 @@ class CheckInButton: ToggleButton {
         startView.clipsToBounds = false
         //Let the button do the clipping
         clipsToBounds = false
+        //Since we are scaling, set the background color of the button, and clear the backgroundColor of the startview
+        backgroundColor = startView.backgroundColor
+        startView.backgroundColor = .clear
         return startView
     }()
 
