@@ -22,7 +22,7 @@ CheckInButton(frame: frame)
 You can also use our convience class, like so:
 
 ```
-Checkboxes.create(.griddy) 
+Checkboxes.create(.griddy) f
 ```
 
 # Structure
