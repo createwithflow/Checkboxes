@@ -1,4 +1,4 @@
-<img src="https://github.com/createwithflow/Checkboxes/blob/main/Assets/flow-logo%402x.png" width="120" />
+<img src="https://github.com/createwithflow/Checkboxes/blob/master/Assets/flow-logo%402x.png" width="120" />
 
 # Checkboxes
 <img align="right" src="https://github.com/createwithflow/Checkboxes/blob/master/Assets/checkBoxesAll32Portrait.gif" width="320" />
