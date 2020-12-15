@@ -8,9 +8,9 @@
 #### Made with [Flow](https://createwithflow.com/?utm_source=github&utm_medium=checkboxes).<br />
 
 # Story
-**We created and shipped all 32 of these animations in two days**. We drew on [inspirations from Dribbble](https://createwithflow.com/blog/steal-to-learn/), all designs were created in Figma > [here's the file](https://www.figma.com/file/SIGnizFPmXI1dYS7A5jdKr/CheckBoxes). All code was exported using the `iOS Toggle Button` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=checkboxes).
+**We created and shipped all 32 of these animations in two days**. We drew on [inspirations from Dribbble](https://createwithflow.com/blog/steal-to-learn/?utm_source=github&utm_medium=checkboxes), all designs were created in Figma > [here's the file](https://www.figma.com/file/SIGnizFPmXI1dYS7A5jdKr/CheckBoxes). All code was exported using the `iOS Toggle Button` option in [Flow](https://createwithflow.com/?utm_source=github&utm_medium=checkboxes).
 
-Want to know how we did this so quickly? Check out our article: [Animate and Ship 50 iOS Spinners in 48 hours](https://createwithflow.com/blog/fifty-fortyeight/) < Different project, but the same process.
+Want to know how we did this so quickly? Check out our article: [Animate and Ship 50 iOS Spinners in 48 hours](https://createwithflow.com/blog/fifty-fortyeight/?utm_source=github&utm_medium=checkboxes) < Different project, but the same process.
 
 # Usage
 Each class has its own unique initializer. For example:
