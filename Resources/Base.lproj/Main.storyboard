@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gNs-5D-dvo">
-    <device id="retina4_7" orientation="landscape" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gNs-5D-dvo">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +16,47 @@
                         <viewControllerLayoutGuide type="bottom" id="A150B262-6062-44C5-9F0A-DC4BE6AC46CD"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="90AFDE1B-494B-42A2-B855-0D8A63E4801A">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="aar-Iz-Y8L">
+                                <rect key="frame" x="384" y="336" width="256" height="96"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3hI-PY-mGb" customClass="ZomboButton" customModule="Checkboxes" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="32" width="32" height="32"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="9mo-GR-hSq"/>
+                                            <constraint firstAttribute="width" constant="32" id="dBF-3G-O2z"/>
+                                        </constraints>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qX-Nm-V0Y" customClass="ZomboButton" customModule="Checkboxes" customModuleProvider="target">
+                                        <rect key="frame" x="64" y="16" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="64" id="dIp-Xc-Y3Q"/>
+                                            <constraint firstAttribute="height" constant="64" id="mAh-IM-x4e"/>
+                                        </constraints>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDj-lW-nHJ" customClass="ZomboButton" customModule="Checkboxes" customModuleProvider="target">
+                                        <rect key="frame" x="160" y="0.0" width="96" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="96" id="82C-e2-Rzz"/>
+                                            <constraint firstAttribute="height" constant="96" id="xF3-hy-PdD"/>
+                                        </constraints>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="aar-Iz-Y8L" firstAttribute="centerY" secondItem="90AFDE1B-494B-42A2-B855-0D8A63E4801A" secondAttribute="centerY" id="5xO-gF-2oP"/>
+                            <constraint firstItem="aar-Iz-Y8L" firstAttribute="centerX" secondItem="90AFDE1B-494B-42A2-B855-0D8A63E4801A" secondAttribute="centerX" id="NtR-VZ-bTW"/>
+                        </constraints>
                     </view>
                     <value key="contentSizeForViewInPopover" type="size" width="32" height="32"/>
+                    <connections>
+                        <outlet property="button" destination="3hI-PY-mGb" id="qMH-nG-ZBN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F9821E58-BEC7-468D-9716-89F8C8529F5B" sceneMemberID="firstResponder"/>
             </objects>
@@ -36,11 +71,11 @@
                         <viewControllerLayoutGuide type="bottom" id="NOy-1h-cy6"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Lsv-YY-aZj">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJs-KB-Ydh" customClass="LaunchAnimationView" customModule="Checkboxes" customModuleProvider="target">
-                                <rect key="frame" x="188.5" y="157.5" width="290" height="60"/>
+                                <rect key="frame" x="367" y="354" width="290" height="60"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="F34-UY-EOV"/>
@@ -63,4 +98,18 @@
             <point key="canvasLocation" x="-1" y="649"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="3hI-PY-mGb">
+            <size key="intrinsicContentSize" width="30" height="34"/>
+        </designable>
+        <designable name="9qX-Nm-V0Y">
+            <size key="intrinsicContentSize" width="30" height="34"/>
+        </designable>
+        <designable name="CJs-KB-Ydh">
+            <size key="intrinsicContentSize" width="290" height="60"/>
+        </designable>
+        <designable name="fDj-lW-nHJ">
+            <size key="intrinsicContentSize" width="30" height="34"/>
+        </designable>
+    </designables>
 </document>

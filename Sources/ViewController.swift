@@ -6,14 +6,10 @@
 import UIKit
 
 public class ViewController: UIViewController {
-        
+    @IBOutlet var button: ToggleButton!
+    
     public override func viewDidLoad() {
-        guard let checkbox = Checkboxes.create(.alarm) else {
-            return
-        }
-        checkbox.center = view.center
-        view.backgroundColor = checkbox.backgroundColor
-        view.addSubview(checkbox)
+        view.backgroundColor = button.backgroundColor
     }
 
     public override var prefersStatusBarHidden: Bool {
